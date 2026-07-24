@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="今日星座">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0e1229">
+<title>今日星座運勢</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0e1229;
+    --bg-deep: #080a1a;
+    --card: #171b3a;
+    --card-line: rgba(241,233,216,0.10);
+    --ink: #f1e9d8;
+    --ink-dim: rgba(241,233,216,0.55);
+    --gold: #c9a227;
+    --gold-soft: rgba(201,162,39,0.35);
+    --rose: #a85c71;
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(ellipse at 50% -10%, #1b2050 0%, var(--bg) 55%, var(--bg-deep) 100%);
+    color: var(--ink);
+    font-family:'Work Sans', sans-serif;
+    display:flex;
+    justify-content:center;
+    -webkit-font-smoothing:antialiased;
+  }
+  .stars{
+    position:fixed; inset:0; pointer-events:none; z-index:0;
+    background-image:
+      radial-gradient(1px 1px at 10% 20%, rgba(241,233,216,0.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 80% 10%, rgba(241,233,216,0.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 60% 35%, rgba(241,233,216,0.45) 50%, transparent 51%),
+      radial-gradient(1px 1px at 30% 70%, rgba(241,233,216,0.35) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90% 60%, rgba(241,233,216,0.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 15% 85%, rgba(241,233,216,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 70% 90%, rgba(241,233,216,0.4) 50%, transparent 51%),
+      radial-gradient(1px 1px at 45% 15%, rgba(241,233,216,0.3) 50%, transparent 51%);
+    opacity:0.8;
+  }
+  .app{
+    position:relative; z-index:1;
+    width:100%; max-width:460px;
+    padding: 34px 20px 40px;
+    display:flex; flex-direction:column; align-items:center;
+  }
+  header{ text-align:center; margin-bottom:22px; }
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px; letter-spacing:0.28em; text-transform:uppercase;
+    color: var(--gold); opacity:0.85; margin-bottom:8px;
+  }
+  h1{
+    font-family:'Cormorant Garamond', serif;
+    font-weight:600; font-size:32px; margin:0 0 6px;
+    letter-spacing:0.01em;
+  }
+  .date-sub{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px; color: var(--ink-dim);
+  }
+
+  /* Zodiac wheel */
+  .wheel-wrap{
+    position:relative;
+    width: 300px; height:300px;
+    margin: 18px 0 6px;
+  }
+  .wheel-wrap svg{ width:100%; height:100%; display:block; }
+  .sign-node{
+    cursor:pointer;
+    transition: transform 0.25s ease;
+  }
+  .sign-node circle.halo{
+    fill: transparent;
+    stroke: var(--gold-soft);
+    stroke-width: 0;
+    transition: stroke-width 0.25s ease, fill 0.25s ease;
+  }
+  .sign-node text{
+    font-size: 20px;
+    fill: var(--ink-dim);
+    text-anchor: middle;
+    dominant-baseline: central;
+    transition: fill 0.25s ease;
+  }
+  .sign-node.active circle.halo{
+    fill: rgba(201,162,39,0.12);
+    stroke-width: 1.5;
+  }
+  .sign-node.active text{ fill: var(--gold); }
+  .sign-node:hover text{ fill: var(--ink); }
+  .center-glyph{
+    font-family:'Cormorant Garamond', serif;
+    font-size: 46px;
+    fill: var(--ink);
+    text-anchor: middle;
+    dominant-baseline: central;
+  }
+  .center-ring{
+    fill: none;
+    stroke: var(--card-line);
+    stroke-width: 1;
+  }
+  .orbit-ring{
+    fill:none; stroke: rgba(241,233,216,0.08); stroke-width:1;
+    stroke-dasharray: 2 5;
+  }
+
+  /* Card */
+  .card{
+    width:100%;
+    background: var(--card);
+    border: 1px solid var(--card-line);
+    border-radius: 18px;
+    padding: 22px 22px 20px;
+    margin-top: 18px;
+    box-shadow: 0 20px 50px -20px rgba(0,0,0,0.6);
+    transition: background 0.4s ease, border-color 0.4s ease;
+  }
+  .card-head{
+    display:flex; align-items:baseline; justify-content:space-between;
+    margin-bottom:14px; padding-bottom:14px;
+    border-bottom: 1px solid var(--card-line);
+  }
+  .card-head .name{
+    font-family:'Cormorant Garamond', serif;
+    font-size: 26px; font-weight:600;
+  }
+  .card-head .range{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--ink-dim);
+  }
+  .horoscope-text{
+    font-size: 15px; line-height: 1.85; color: rgba(241,233,216,0.92);
+    min-height: 90px;
+  }
+  .horoscope-text.italic-lead::first-letter{
+    font-family:'Cormorant Garamond', serif;
+    font-size: 40px; color: var(--gold); float:left; line-height:0.8; margin: 6px 6px 0 0;
+  }
+  .sources{
+    margin-top: 14px; padding-top: 12px;
+    border-top: 1px solid var(--card-line);
+    display:flex; flex-direction:column; gap:6px;
+  }
+  .sources-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 10.5px; letter-spacing:0.1em; text-transform:uppercase;
+    color: var(--ink-dim); margin-bottom:2px;
+  }
+  .sources a{
+    font-size: 12px; color: var(--gold);
+    text-decoration: none; word-break: break-all;
+    opacity: 0.9;
+  }
+  .sources a:hover{ text-decoration: underline; opacity: 1; }
+  .hidden{ display:none !important; }
+  .lucky-row{
+    display:flex; gap:10px; margin-bottom:14px;
+  }
+  .lucky-item{
+    flex:1; background: rgba(255,255,255,0.03);
+    border:1px solid var(--card-line); border-radius:10px;
+    padding:9px 12px;
+  }
+  .lucky-label{
+    font-family:'JetBrains Mono', monospace; font-size:10px;
+    letter-spacing:0.08em; text-transform:uppercase; color: var(--ink-dim);
+    margin-bottom:4px;
+  }
+  .lucky-value{
+    font-size:14px; font-weight:500; color: var(--gold);
+    display:flex; align-items:center; gap:6px;
+  }
+  .lucky-swatch{
+    width:11px; height:11px; border-radius:50%;
+    display:inline-block; flex-shrink:0;
+    border:1px solid rgba(241,233,216,0.3);
+  }
+  .state-msg{
+    font-size:13px; color: var(--ink-dim); line-height:1.7;
+  }
+  .state-msg.err{ color: var(--rose); }
+  .spin{
+    display:inline-block; width:14px; height:14px; border-radius:50%;
+    border: 2px solid var(--gold-soft); border-top-color: var(--gold);
+    animation: spin 0.8s linear infinite; margin-right:8px; vertical-align:-2px;
+  }
+  @keyframes spin{ to{ transform: rotate(360deg); } }
+
+  footer{
+    margin-top:22px; font-size:11px; color: var(--ink-dim); text-align:center;
+    font-family:'JetBrains Mono', monospace;
+  }
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<div class="app">
+  <header>
+    <div class="eyebrow">Daily Horoscope</div>
+    <h1>今日星座運勢</h1>
+    <div class="date-sub" id="dateSub">—</div>
+  </header>
+
+  <div class="wheel-wrap">
+    <svg id="wheelSvg" viewBox="0 0 300 300"></svg>
+  </div>
+
+  <div class="card" id="mainCard">
+    <div class="card-head">
+      <div class="name" id="cardName">選一個星座</div>
+      <div class="range" id="cardRange"></div>
+    </div>
+    <div id="luckyRow" class="lucky-row hidden">
+      <div class="lucky-item">
+        <div class="lucky-label">幸運色</div>
+        <div class="lucky-value" id="luckyColor">—</div>
+      </div>
+      <div class="lucky-item">
+        <div class="lucky-label">幸運時間</div>
+        <div class="lucky-value" id="luckyTime">—</div>
+      </div>
+    </div>
+    <div id="cardBody">
+      <div class="state-msg">點選上方星座輪盤，查看今日運勢。</div>
+    </div>
+  </div>
+
+  <footer>data · live web search via Claude</footer>
+</div>
+
+<script>
+const SIGNS = [
+  { key:'aries', name:'牡羊座', glyph:'♈', range:'3/21–4/19' },
+  { key:'taurus', name:'金牛座', glyph:'♉', range:'4/20–5/20' },
+  { key:'gemini', name:'雙子座', glyph:'♊', range:'5/21–6/20' },
+  { key:'cancer', name:'巨蟹座', glyph:'♋', range:'6/21–7/22' },
+  { key:'leo', name:'獅子座', glyph:'♌', range:'7/23–8/22' },
+  { key:'virgo', name:'處女座', glyph:'♍', range:'8/23–9/22' },
+  { key:'libra', name:'天秤座', glyph:'♎', range:'9/23–10/22' },
+  { key:'scorpio', name:'天蠍座', glyph:'♏', range:'10/23–11/21' },
+  { key:'sagittarius', name:'射手座', glyph:'♐', range:'11/22–12/21' },
+  { key:'capricorn', name:'摩羯座', glyph:'♑', range:'12/22–1/19' },
+  { key:'aquarius', name:'水瓶座', glyph:'♒', range:'1/20–2/18' },
+  { key:'pisces', name:'雙魚座', glyph:'♓', range:'2/19–3/20' },
+];
+
+const svgNS = 'http://www.w3.org/2000/svg';
+const CENTER = 150, RADIUS = 122;
+let activeKey = null;
+const cache = {};
+
+// TODO: replace with your deployed Cloudflare Worker URL, e.g.
+// 'https://horoscope-proxy.your-subdomain.workers.dev'
+const WORKER_URL = 'https://horoscope.milo0624.workers.dev/';
+
+function buildWheel(){
+  const svg = document.getElementById('wheelSvg');
+  // orbit ring
+  const ring = document.createElementNS(svgNS,'circle');
+  ring.setAttribute('cx', CENTER); ring.setAttribute('cy', CENTER); ring.setAttribute('r', RADIUS);
+  ring.setAttribute('class','orbit-ring');
+  svg.appendChild(ring);
+
+  const centerRing = document.createElementNS(svgNS,'circle');
+  centerRing.setAttribute('cx', CENTER); centerRing.setAttribute('cy', CENTER); centerRing.setAttribute('r', 46);
+  centerRing.setAttribute('class','center-ring');
+  svg.appendChild(centerRing);
+
+  const centerText = document.createElementNS(svgNS,'text');
+  centerText.setAttribute('x', CENTER); centerText.setAttribute('y', CENTER);
+  centerText.setAttribute('class','center-glyph');
+  centerText.setAttribute('id','centerGlyph');
+  centerText.textContent = '☾';
+  svg.appendChild(centerText);
+
+  SIGNS.forEach((s, i) => {
+    const angle = (Math.PI * 2 * i / 12) - Math.PI/2;
+    const x = CENTER + RADIUS * Math.cos(angle);
+    const y = CENTER + RADIUS * Math.sin(angle);
+
+    const g = document.createElementNS(svgNS,'g');
+    g.setAttribute('class','sign-node');
+    g.setAttribute('id', 'node-' + s.key);
+    g.setAttribute('transform', `translate(${x},${y})`);
+
+    const halo = document.createElementNS(svgNS,'circle');
+    halo.setAttribute('class','halo');
+    halo.setAttribute('r', 20);
+    g.appendChild(halo);
+
+    const text = document.createElementNS(svgNS,'text');
+    text.textContent = s.glyph;
+    g.appendChild(text);
+
+    g.addEventListener('click', () => selectSign(s.key));
+    svg.appendChild(g);
+  });
+}
+
+function todayStr(){
+  const d = new Date();
+  const days = ['日','一','二','三','四','五','六'];
+  return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}（週${days[d.getDay()]}）`;
+}
+
+async function selectSign(key){
+  activeKey = key;
+  document.querySelectorAll('.sign-node').forEach(n => n.classList.remove('active'));
+  document.getElementById('node-'+key).classList.add('active');
+  const sign = SIGNS.find(s => s.key === key);
+  document.getElementById('centerGlyph').textContent = sign.glyph;
+  document.getElementById('cardName').textContent = sign.name;
+  document.getElementById('cardRange').textContent = sign.range;
+
+  const body = document.getElementById('cardBody');
+
+  if (cache[key]) {
+    renderHoroscope(body, cache[key]);
+    return;
+  }
+
+  document.getElementById('luckyRow').classList.add('hidden');
+  const mainCard = document.getElementById('mainCard');
+  mainCard.style.background = '';
+  mainCard.style.borderColor = '';
+  body.innerHTML = `<div class="state-msg"><span class="spin"></span>正在上網搜尋今日運勢…</div>`;
+
+  try {
+    const res = await fetch(WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sign: sign.key, signName: sign.name })
+    });
+
+    if (!res.ok) {
+      body.innerHTML = `<div class="state-msg err">讀取失敗（狀態碼 ${res.status}），請稍後再試。</div>`;
+      return;
+    }
+
+    const data = await res.json();
+    cache[key] = data;
+    renderHoroscope(body, data);
+  } catch (e) {
+    body.innerHTML = `<div class="state-msg err">解析或連線發生問題，稍後可再試一次。</div>`;
+  }
+}
+
+function hexToRgba(hex, alpha){
+  const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec((hex || '').trim());
+  if (!m) return null;
+  const r = parseInt(m[1], 16), g = parseInt(m[2], 16), b = parseInt(m[3], 16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+function renderHoroscope(body, data){
+  const sources = Array.isArray(data.sources) ? data.sources.filter(s => s && s.url) : [];
+  const sourcesHtml = sources.length
+    ? `<div class="sources">
+        <div class="sources-label">來源依據</div>
+        ${sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.name || s.url}</a>`).join('')}
+       </div>`
+    : '';
+  body.innerHTML = `<div class="horoscope-text italic-lead">${data.horoscope}</div>${sourcesHtml}`;
+
+  const luckyRow = document.getElementById('luckyRow');
+  const card = document.getElementById('mainCard');
+  if (data.lucky_color || data.lucky_time) {
+    const swatch = data.lucky_color_hex ? `<span class="lucky-swatch" style="background:${data.lucky_color_hex}"></span>` : '';
+    document.getElementById('luckyColor').innerHTML = `${swatch}${data.lucky_color || '—'}`;
+    document.getElementById('luckyTime').textContent = data.lucky_time || '—';
+    luckyRow.classList.remove('hidden');
+
+    const tint = hexToRgba(data.lucky_color_hex, 0.16);
+    if (tint) {
+      card.style.background = `linear-gradient(165deg, ${tint} 0%, var(--card) 60%)`;
+      card.style.borderColor = hexToRgba(data.lucky_color_hex, 0.4);
+    } else {
+      card.style.background = '';
+      card.style.borderColor = '';
+    }
+  } else {
+    luckyRow.classList.add('hidden');
+    card.style.background = '';
+    card.style.borderColor = '';
+  }
+}
+
+document.getElementById('dateSub').textContent = todayStr();
+buildWheel();
+</script>
+</body>
+</html>

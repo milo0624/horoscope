@@ -211,6 +211,15 @@
   }
   @keyframes spin{ to{ transform: rotate(360deg); } }
 
+  .refresh-btn{
+    margin-top: 18px;
+    background: transparent; border: 1px solid var(--card-line);
+    color: var(--ink-dim); font-family:'JetBrains Mono', monospace;
+    font-size: 11.5px; padding: 8px 16px; border-radius: 999px;
+    cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
+  }
+  .refresh-btn:hover{ border-color: var(--gold-soft); color: var(--gold); }
+  .refresh-btn:disabled{ opacity: 0.5; cursor: default; }
   footer{
     margin-top:22px; font-size:11px; color: var(--ink-dim); text-align:center;
     font-family:'JetBrains Mono', monospace;
@@ -250,6 +259,7 @@
     </div>
   </div>
 
+  <button class="refresh-btn" id="refreshBtn">重新讀取資料</button>
   <footer id="footerInfo">data · 每日自動更新</footer>
 </div>
 
@@ -428,6 +438,16 @@ function renderHoroscope(body, data){
 document.getElementById('dateSub').textContent = todayStr();
 buildWheel();
 loadHoroscopeData();
+
+document.getElementById('refreshBtn').addEventListener('click', async () => {
+  const btn = document.getElementById('refreshBtn');
+  btn.disabled = true;
+  btn.textContent = '讀取中…';
+  await loadHoroscopeData();
+  if (activeKey) selectSign(activeKey);
+  btn.disabled = false;
+  btn.textContent = '重新讀取資料';
+});
 </script>
 </body>
 </html>

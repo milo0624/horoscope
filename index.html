@@ -149,6 +149,18 @@
     font-family:'Cormorant Garamond', serif;
     font-size: 40px; color: var(--gold); float:left; line-height:0.8; margin: 6px 6px 0 0;
   }
+  .orig-toggle{
+    margin-top: 10px; font-size: 11.5px; color: var(--ink-dim);
+    font-family:'JetBrains Mono', monospace; cursor: pointer;
+    display: inline-block; text-decoration: underline dotted;
+  }
+  .orig-toggle:hover{ color: var(--gold); }
+  .orig-text{
+    margin-top: 8px; font-size: 12.5px; line-height: 1.6;
+    color: var(--ink-dim); font-style: italic;
+    padding: 10px; background: rgba(255,255,255,0.02);
+    border-radius: 8px; border: 1px solid var(--card-line);
+  }
   .sources{
     margin-top: 14px; padding-top: 12px;
     border-top: 1px solid var(--card-line);
@@ -199,39 +211,6 @@
   }
   @keyframes spin{ to{ transform: rotate(360deg); } }
 
-  /* Settings */
-  .settings{
-    width:100%; margin-top:16px;
-  }
-  .settings summary{
-    cursor:pointer; font-size:12px; color: var(--ink-dim);
-    font-family:'JetBrains Mono', monospace; letter-spacing:0.04em;
-    list-style:none; display:flex; align-items:center; gap:6px;
-  }
-  .settings summary::-webkit-details-marker{ display:none; }
-  .settings summary::before{ content:'⚙'; color: var(--gold); }
-  .settings-body{
-    margin-top:12px; padding:14px; background: rgba(255,255,255,0.02);
-    border:1px solid var(--card-line); border-radius:12px;
-  }
-  .settings-body label{
-    display:block; font-size:11.5px; color: var(--ink-dim); margin-bottom:8px; line-height:1.6;
-  }
-  .key-row{ display:flex; gap:8px; }
-  .key-row input{
-    flex:1; background: var(--bg-deep); border:1px solid var(--card-line);
-    color: var(--ink); font-family:'JetBrains Mono', monospace; font-size:12.5px;
-    padding:9px 10px; border-radius:8px; outline:none;
-  }
-  .key-row input:focus{ border-color: var(--gold-soft); }
-  .key-row button{
-    background: var(--gold); color: #14162a; border:none; border-radius:8px;
-    padding: 0 14px; font-family:'Work Sans', sans-serif; font-weight:600;
-    font-size:12.5px; cursor:pointer;
-  }
-  .key-row button:active{ transform: translateY(1px); }
-  .key-status{ margin-top:8px; font-size:11px; color: var(--ink-dim); }
-  .settings-body a{ color: var(--gold); }
   footer{
     margin-top:22px; font-size:11px; color: var(--ink-dim); text-align:center;
     font-family:'JetBrains Mono', monospace;
@@ -271,19 +250,7 @@
     </div>
   </div>
 
-  <details class="settings" id="settingsPanel">
-    <summary>API 金鑰設定</summary>
-    <div class="settings-body">
-      <label>資料來源為 API Ninjas 的 Horoscope API（免費、不需信用卡）。請至 <a href="https://api-ninjas.com/register" target="_blank" rel="noopener">api-ninjas.com/register</a> 免費註冊，取得個人 API Key 後貼在下方（只存在你這個瀏覽器裡）。內容為英文。</label>
-      <div class="key-row">
-        <input type="password" id="apiKeyInput" placeholder="貼上你的 API Key" autocomplete="off">
-        <button id="saveKeyBtn">儲存</button>
-      </div>
-      <div class="key-status" id="keyStatus">尚未設定</div>
-    </div>
-  </details>
-
-  <footer>data · api-ninjas.com/api/horoscope</footer>
+  <footer id="footerInfo">data · 每日自動更新</footer>
 </div>
 
 <script>
@@ -305,7 +272,6 @@ const SIGNS = [
 const svgNS = 'http://www.w3.org/2000/svg';
 const CENTER = 150, RADIUS = 122;
 let activeKey = null;
-const cache = {};
 
 function buildWheel(){
   const svg = document.getElementById('wheelSvg');
@@ -357,7 +323,31 @@ function todayStr(){
   return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}（週${days[d.getDay()]}）`;
 }
 
-async function selectSign(key){
+let horoscopeData = null;
+
+async function loadHoroscopeData(){
+  try {
+    const res = await fetch('./horoscope.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    horoscopeData = await res.json();
+    updateFooterInfo();
+  } catch (e) {
+    horoscopeData = { generated_at: null, signs: {} };
+  }
+}
+
+function updateFooterInfo(){
+  const footer = document.getElementById('footerInfo');
+  if (horoscopeData && horoscopeData.generated_at) {
+    const d = new Date(horoscopeData.generated_at);
+    const stamp = `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+    footer.textContent = `data · 每日自動更新 · 上次更新 ${stamp}`;
+  } else {
+    footer.textContent = 'data · 每日自動更新（尚未產生第一份資料）';
+  }
+}
+
+function selectSign(key){
   activeKey = key;
   document.querySelectorAll('.sign-node').forEach(n => n.classList.remove('active'));
   document.getElementById('node-'+key).classList.add('active');
@@ -367,80 +357,23 @@ async function selectSign(key){
   document.getElementById('cardRange').textContent = sign.range;
 
   const body = document.getElementById('cardBody');
-
-  if (cache[key]) {
-    renderHoroscope(body, cache[key]);
-    return;
-  }
-
   document.getElementById('luckyRow').classList.add('hidden');
   const mainCard = document.getElementById('mainCard');
   mainCard.style.background = '';
   mainCard.style.borderColor = '';
 
-  const apiKey = getStoredKey();
-  if (!apiKey) {
-    body.innerHTML = `<div class="state-msg">尚未設定 API Key，請展開下方「API 金鑰設定」完成一次性設定後即可查看每日運勢。</div>`;
-    document.getElementById('settingsPanel').open = true;
+  if (!horoscopeData) {
+    body.innerHTML = `<div class="state-msg"><span class="spin"></span>正在載入運勢資料…</div>`;
     return;
   }
 
-  body.innerHTML = `<div class="state-msg"><span class="spin"></span>正在讀取今日運勢…</div>`;
-
-  try {
-    const res = await fetch(`https://api.api-ninjas.com/v1/horoscope?zodiac=${sign.key}`, {
-      headers: { 'X-Api-Key': apiKey }
-    });
-
-    if (!res.ok) {
-      const errText = res.status === 400 || res.status === 401
-        ? 'API Key 無效或未授權，請確認貼上的金鑰是否正確。'
-        : `讀取失敗（狀態碼 ${res.status}），請稍後再試。`;
-      body.innerHTML = `<div class="state-msg err">${errText}</div>`;
-      return;
-    }
-
-    const data = await res.json();
-    cache[key] = data;
-    renderHoroscope(body, data);
-  } catch (e) {
-    body.innerHTML = `<div class="state-msg err">連線失敗，請確認網路連線後再試一次。</div>`;
-  }
-}
-
-function getStoredKey(){
-  try {
-    return localStorage.getItem('horoscope_api_ninjas_key') || null;
-  } catch (e) {
-    return null;
-  }
-}
-
-function initKeyUI(){
-  const status = document.getElementById('keyStatus');
-  const input = document.getElementById('apiKeyInput');
-  const key = getStoredKey();
-  if (key) {
-    status.textContent = '已儲存金鑰 ✓';
-    input.placeholder = '••••••••••••••••';
-  } else {
-    status.textContent = '尚未設定';
+  const data = horoscopeData.signs && horoscopeData.signs[key];
+  if (!data) {
+    body.innerHTML = `<div class="state-msg">今天的資料還沒產生，排程會在每天早上自動更新，稍後再回來看看。</div>`;
+    return;
   }
 
-  document.getElementById('saveKeyBtn').addEventListener('click', () => {
-    const val = input.value.trim();
-    if (!val) return;
-    try {
-      localStorage.setItem('horoscope_api_ninjas_key', val);
-      status.textContent = '已儲存金鑰 ✓';
-      input.value = '';
-      input.placeholder = '••••••••••••••••';
-      Object.keys(cache).forEach(k => delete cache[k]);
-      if (activeKey) selectSign(activeKey);
-    } catch (e) {
-      status.textContent = '儲存失敗，請再試一次。';
-    }
-  });
+  renderHoroscope(body, data);
 }
 
 function hexToRgba(hex, alpha){
@@ -458,7 +391,16 @@ function renderHoroscope(body, data){
         ${sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.name || s.url}</a>`).join('')}
        </div>`
     : '';
-  body.innerHTML = `<div class="horoscope-text italic-lead">${data.horoscope}</div>${sourcesHtml}`;
+  const origToggle = data.horoscope_en
+    ? `<div class="orig-toggle" id="origToggle">查看英文原文</div><div class="orig-text hidden" id="origText">${data.horoscope_en}</div>`
+    : '';
+  body.innerHTML = `<div class="horoscope-text italic-lead">${data.horoscope}</div>${origToggle}${sourcesHtml}`;
+
+  if (data.horoscope_en) {
+    document.getElementById('origToggle').addEventListener('click', () => {
+      document.getElementById('origText').classList.toggle('hidden');
+    });
+  }
 
   const luckyRow = document.getElementById('luckyRow');
   const card = document.getElementById('mainCard');
@@ -485,7 +427,7 @@ function renderHoroscope(body, data){
 
 document.getElementById('dateSub').textContent = todayStr();
 buildWheel();
-initKeyUI();
+loadHoroscopeData();
 </script>
 </body>
 </html>

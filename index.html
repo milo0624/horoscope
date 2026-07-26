@@ -10,8 +10,14 @@
 <meta name="theme-color" content="#0e1229">
 <title>今日星座運勢</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+  @font-face {
+    font-family: 'Iansui';
+    src: url('https://cdn.jsdelivr.net/gh/ButTaiwan/iansui@main/fonts/ttf/Iansui-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+  }
   :root{
     --bg: #0e1229;
     --bg-deep: #080a1a;
@@ -30,7 +36,7 @@
     background:
       radial-gradient(ellipse at 50% -10%, #1b2050 0%, var(--bg) 55%, var(--bg-deep) 100%);
     color: var(--ink);
-    font-family:'Work Sans', sans-serif;
+    font-family:'Noto Sans TC', sans-serif;
     display:flex;
     justify-content:center;
     -webkit-font-smoothing:antialiased;
@@ -56,17 +62,17 @@
   }
   header{ text-align:center; margin-bottom:22px; }
   .eyebrow{
-    font-family:'JetBrains Mono', monospace;
+    font-family:'Baloo 2', sans-serif;
     font-size:11px; letter-spacing:0.28em; text-transform:uppercase;
     color: var(--gold); opacity:0.85; margin-bottom:8px;
   }
   h1{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Iansui', 'Noto Sans TC', sans-serif;
     font-weight:600; font-size:32px; margin:0 0 6px;
     letter-spacing:0.01em;
   }
   .date-sub{
-    font-family:'JetBrains Mono', monospace;
+    font-family:'Baloo 2', sans-serif;
     font-size:12px; color: var(--ink-dim);
   }
 
@@ -101,7 +107,7 @@
   .sign-node.active text{ fill: var(--gold); }
   .sign-node:hover text{ fill: var(--ink); }
   .center-glyph{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Iansui', 'Noto Sans TC', sans-serif;
     font-size: 46px;
     fill: var(--ink);
     text-anchor: middle;
@@ -134,11 +140,11 @@
     border-bottom: 1px solid var(--card-line);
   }
   .card-head .name{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Iansui', 'Noto Sans TC', sans-serif;
     font-size: 26px; font-weight:600;
   }
   .card-head .range{
-    font-family:'JetBrains Mono', monospace;
+    font-family:'Baloo 2', sans-serif;
     font-size: 11px; color: var(--ink-dim);
   }
   .horoscope-text{
@@ -146,12 +152,12 @@
     min-height: 90px;
   }
   .horoscope-text.italic-lead::first-letter{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'Iansui', 'Noto Sans TC', sans-serif;
     font-size: 40px; color: var(--gold); float:left; line-height:0.8; margin: 6px 6px 0 0;
   }
   .orig-toggle{
     margin-top: 10px; font-size: 11.5px; color: var(--ink-dim);
-    font-family:'JetBrains Mono', monospace; cursor: pointer;
+    font-family:'Baloo 2', sans-serif; cursor: pointer;
     display: inline-block; text-decoration: underline dotted;
   }
   .orig-toggle:hover{ color: var(--gold); }
@@ -167,7 +173,7 @@
     display:flex; flex-direction:column; gap:6px;
   }
   .sources-label{
-    font-family:'JetBrains Mono', monospace;
+    font-family:'Baloo 2', sans-serif;
     font-size: 10.5px; letter-spacing:0.1em; text-transform:uppercase;
     color: var(--ink-dim); margin-bottom:2px;
   }
@@ -187,7 +193,7 @@
     padding:9px 12px;
   }
   .lucky-label{
-    font-family:'JetBrains Mono', monospace; font-size:10px;
+    font-family:'Baloo 2', sans-serif; font-size:10px;
     letter-spacing:0.08em; text-transform:uppercase; color: var(--ink-dim);
     margin-bottom:4px;
   }
@@ -200,6 +206,31 @@
     display:inline-block; flex-shrink:0;
     border:1px solid rgba(241,233,216,0.3);
   }
+  .lucky-disclaimer{
+    font-size: 10.5px; color: var(--ink-dim); line-height:1.5;
+    margin: -6px 0 14px; opacity: 0.75;
+  }
+  .weekly-ref{
+    margin-top: 16px; text-align:center;
+    max-width: 380px;
+  }
+  .weekly-theme{
+    font-size: 12px; line-height:1.7; color: var(--ink-dim);
+    margin-bottom: 8px;
+  }
+  .weekly-theme-range{
+    font-family:'Baloo 2', sans-serif; color: var(--gold);
+    font-size: 11px;
+  }
+  .weekly-ref-label{
+    font-size: 10.5px; color: var(--ink-dim); margin-bottom:6px;
+    font-family:'Baloo 2', sans-serif; letter-spacing:0.04em;
+  }
+  .weekly-ref a{
+    font-size: 12px; color: var(--gold); text-decoration:none;
+    margin: 0 6px; opacity:0.9;
+  }
+  .weekly-ref a:hover{ text-decoration: underline; opacity:1; }
   .state-msg{
     font-size:13px; color: var(--ink-dim); line-height:1.7;
   }
@@ -214,7 +245,7 @@
   .refresh-btn{
     margin-top: 18px;
     background: transparent; border: 1px solid var(--card-line);
-    color: var(--ink-dim); font-family:'JetBrains Mono', monospace;
+    color: var(--ink-dim); font-family:'Baloo 2', sans-serif;
     font-size: 11.5px; padding: 8px 16px; border-radius: 999px;
     cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
   }
@@ -222,7 +253,7 @@
   .refresh-btn:disabled{ opacity: 0.5; cursor: default; }
   footer{
     margin-top:22px; font-size:11px; color: var(--ink-dim); text-align:center;
-    font-family:'JetBrains Mono', monospace;
+    font-family:'Baloo 2', sans-serif;
   }
 </style>
 </head>
@@ -254,12 +285,14 @@
         <div class="lucky-value" id="luckyTime">—</div>
       </div>
     </div>
+    <div id="luckyDisclaimer" class="lucky-disclaimer hidden"></div>
     <div id="cardBody">
       <div class="state-msg">點選上方星座輪盤，查看今日運勢。</div>
     </div>
   </div>
 
   <button class="refresh-btn" id="refreshBtn">重新讀取資料</button>
+  <div id="weeklyRef" class="weekly-ref hidden"></div>
   <footer id="footerInfo">data · 每日自動更新</footer>
 </div>
 
@@ -341,9 +374,28 @@ async function loadHoroscopeData(){
     if (!res.ok) throw new Error('HTTP ' + res.status);
     horoscopeData = await res.json();
     updateFooterInfo();
+    updateWeeklyRef();
   } catch (e) {
     horoscopeData = { generated_at: null, signs: {} };
   }
+}
+
+function updateWeeklyRef(){
+  const el = document.getElementById('weeklyRef');
+  const refs = Array.isArray(horoscopeData && horoscopeData.weekly_reference) ? horoscopeData.weekly_reference : [];
+  const theme = horoscopeData && horoscopeData.weekly_theme;
+  if (!refs.length && !theme) {
+    el.classList.add('hidden');
+    return;
+  }
+  const themeHtml = theme
+    ? `<div class="weekly-theme">${theme.range ? `<span class="weekly-theme-range">${theme.range}</span> ` : ''}${theme.summary || ''}</div>`
+    : '';
+  const linksHtml = refs.length
+    ? `<div class="weekly-ref-label">延伸參考・唐綺陽本週占星觀點</div>${refs.map(r => `<a href="${r.url}" target="_blank" rel="noopener">${r.name}</a>`).join('')}`
+    : '';
+  el.innerHTML = `${themeHtml}${linksHtml}`;
+  el.classList.remove('hidden');
 }
 
 function updateFooterInfo(){
@@ -368,6 +420,7 @@ function selectSign(key){
 
   const body = document.getElementById('cardBody');
   document.getElementById('luckyRow').classList.add('hidden');
+  document.getElementById('luckyDisclaimer').classList.add('hidden');
   const mainCard = document.getElementById('mainCard');
   mainCard.style.background = '';
   mainCard.style.borderColor = '';
@@ -395,6 +448,7 @@ function hexToRgba(hex, alpha){
 
 function renderHoroscope(body, data){
   const sources = Array.isArray(data.sources) ? data.sources.filter(s => s && s.url) : [];
+  if (data.horoscope_source && data.horoscope_source.url) sources.push(data.horoscope_source);
   const sourcesHtml = sources.length
     ? `<div class="sources">
         <div class="sources-label">來源依據</div>
@@ -419,6 +473,13 @@ function renderHoroscope(body, data){
     document.getElementById('luckyColor').innerHTML = `${swatch}${data.lucky_color || '—'}`;
     document.getElementById('luckyTime').textContent = data.lucky_time || '—';
     luckyRow.classList.remove('hidden');
+    const disclaimer = document.getElementById('luckyDisclaimer');
+    if (data.lucky_disclaimer) {
+      disclaimer.textContent = data.lucky_disclaimer;
+      disclaimer.classList.remove('hidden');
+    } else {
+      disclaimer.classList.add('hidden');
+    }
 
     const tint = hexToRgba(data.lucky_color_hex, 0.16);
     if (tint) {

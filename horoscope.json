@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T04:46:52.440Z",
+  "generated_at": "2026-07-26T22:56:57.588Z",
   "weekly_reference": [
     {
       "name": "唐綺陽占星幫（Facebook）",
@@ -17,8 +17,8 @@
   "signs": {
     "aries": {
       "date": "2026-07-26",
-      "horoscope": "牡羊座，今天對你來說擁有巨大的潛力。您可能會注意到自己在生活的各個方面都走向極端，尤其是在心靈問題上。某一時刻你可能會全力投入，下一刻你可能會徹底退卻。在這種情緒過山車中尋求平衡非常重要。",
-      "horoscope_en": "Aries, today holds immense potential for you. You might notice yourself swinging to extremes in various aspects of your life, particularly in matters of the heart. One moment, you could be fully invested, and the next, you might retreat entirely. It's important to seek equilibrium in this emotional rollercoaster.",
+      "horoscope": "今天是你說出自己想法的日子，白羊座。如果有人帶給你陰影，請毫不猶豫地直接解決。壓抑自己的感受會削弱你的自信心，甚至可能導致你失去周遭人的尊重。除了您之外，其他人可能都知道這種情況，因此請負責並確保不會發生這種情況。擁抱你的勇氣並堅持自己的立場—不要讓任何人欺騙你。",
+      "horoscope_en": "Today is the day for you to speak your mind, Aries. If someone throws shade your way, don’t hesitate to address it directly. Bottling up your feelings can chip away at your confidence and may even lead to a loss of respect from those around you. It’s possible that everyone else is aware of the situation except for you, so take charge and ensure that doesn’t happen. Embrace your boldness and stand your ground—don’t allow anyone to deceive you.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -30,8 +30,8 @@
     },
     "taurus": {
       "date": "2026-07-26",
-      "horoscope": "今天，金牛座，你可能會發現自己對周圍的騷動感到困惑。感覺就像有大量的活動，你可能會想知道是什麼驅動了你周圍人的行為。與其陷入試圖破解一切的困境，不如考慮讓事情自然展開。從你周圍的人那裡得到暗示；也許是時候為你的生活注入一些興奮，讓一切變得活躍起來！",
-      "horoscope_en": "Today, Taurus, you might find yourself puzzled by the commotion surrounding you. It feels like there's a blaze of activity, and you could be left wondering what drives the behavior of those around you. Instead of getting caught up in trying to decipher it all, consider letting things unfold naturally. Take a cue from those around you; perhaps it's time to inject some excitement into your life to liven things up!",
+      "horoscope": "今天，金牛座，最好依靠你知道有效的東西。如果您在最後一刻想要調整計劃，那就去做吧！透過讚揚周圍人的成就並認識到他們的優勢來認可他們的努力；這將為你贏得他們的欽佩。花時間陶醉於生活提供的小快樂，珍惜物質和情感上的祝福。讓你的善良和奉獻的本質綻放光芒，邀請他人分享你的溫暖。",
+      "horoscope_en": "Today, Taurus, it's best to rely on what you know works. If you feel the urge to tweak your plans at the last moment, go for it! Acknowledge the efforts of those around you by praising their achievements and recognizing their strengths; this will earn you their admiration. Take time to revel in the little joys life offers and cherish both your material and emotional blessings. Allow your kind and giving nature to shine, inviting others to partake in your warmth.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -43,8 +43,8 @@
     },
     "gemini": {
       "date": "2026-07-26",
-      "horoscope": "今天，雙子座，是時候撣掉掃帚上的灰塵，清除生活中的情緒混亂了。利用周遭強大的改變能量，告別那些拖累你的陳舊關係。擁抱新開始的火花，有意識地努力培養新的習慣，確保舊的模式不會重新出現。",
-      "horoscope_en": "Today, Gemini, it's time to dust off that broom and clear out the emotional clutter in your life. Harness the powerful transformative energy surrounding you to bid farewell to those stale relationships that have been dragging you down. Embrace the spark of new beginnings and make a conscious effort to cultivate fresh habits, ensuring that old patterns don’t resurface.",
+      "horoscope": "雙子座，擁抱今天呈現的豐富的可能性。每一個新的一天都充滿新的機會和快速進步的潛力。抓住你所遇到的一切！你擁有巨大的潛力，但請記住，只有當你承認並利用它時，它才變得有價值。今天是您朝著實現願望邁出重大一步的關鍵時刻。",
+      "horoscope_en": "Embrace the wealth of possibilities that today presents, Gemini. Each new day is filled with fresh opportunities and the potential for swift progress. Seize what comes your way! You possess immense potential, but remember, it only becomes valuable when you acknowledge and utilize it. Today is a pivotal moment for you to take a significant stride towards bringing your aspirations to life.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -56,8 +56,8 @@
     },
     "cancer": {
       "date": "2026-07-26",
-      "horoscope": "今天，巨蟹座，你可能會發現自己充滿能量，但卻不確定如何有效地引導它。為什麼不動起來並參加一些體育活動呢？讓您的身體體驗良好鍛鍊帶來的活力。重新感受勞累的感覺；當您挑戰身體極限時，它會振奮您的精神並激勵您保持更健康的生活方式。",
-      "horoscope_en": "Today, Cancer, you might find yourself brimming with energy, yet uncertain about how to channel it effectively. Why not get moving and engage in some physical activity? Allow your body to experience the invigorating rush of a good workout. Reconnect with the feeling of exertion; it will uplift your spirits and motivate you to maintain a healthier lifestyle as you challenge your physical limits.",
+      "horoscope": "今天，巨蟹座，你可能會發現有必要做出一些調整，以便更好地與周圍的人聯繫。能量感覺有點不穩定，你越努力融入，就越覺得自己像個局外人。避免捲入他人的衝突很重要。努力在現實和夢想之間保持健康的平衡。記住，不要因為沉浸在別人的敘述中而忽略自己的生活。",
+      "horoscope_en": "Today, Cancer, you might find it necessary to make some adjustments to connect better with those around you. The energy feels a bit unsteady, and the more effort you put into blending in, the more you might feel like an outsider. It's important to steer clear of getting involved in others' conflicts. Strive to keep a healthy balance between reality and your dreams. Remember not to lose sight of your own life while getting wrapped up in someone else's narrative.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -69,8 +69,8 @@
     },
     "leo": {
       "date": "2026-07-26",
-      "horoscope": "今天，獅子座，讓你內心的溫暖散發出來！你內心有一種充滿活力的熱情，渴望表達。擁抱你浪漫的一面，讓你的創造力蓬勃發展。掌控你的人際關係，向你所愛的人展示他們對你有多重要。鼓起勇氣，擔任領導角色，但記得充滿感情，不要壓倒他們。為他人的成長留出空間！",
-      "horoscope_en": "Today, Leo, let your heart's warmth radiate! There's a vibrant passion within you that yearns for expression. Embrace your romantic side and let your creativity flourish. Take charge in your relationships, showing your loved ones how much they mean to you. Gather your courage and step into a leadership role, but remember to be affectionate without overwhelming them. Allow space for others to thrive!",
+      "horoscope": "獅子座，今天就擁抱真實的自己－讓你真實的個性閃耀！宇宙渴望你更多的独特性。慶祝您的特殊品質，並毫不猶豫地向他人展示它們。考慮探索新的和非傳統的方法來完成任務或挑戰。只是要注意一種強大的、穩定的影響力，它可能會試圖將你固定在傳統的方式上。抵制符合社会期望的冲动。",
+      "horoscope_en": "Embrace your true self today, Leo—let your authentic personality shine! The universe craves more of your distinctiveness. Celebrate your special traits and don’t hesitate to showcase them to others. Consider exploring fresh and unconventional approaches to tasks or challenges. Just be mindful of a powerful, stabilizing influence that may attempt to anchor you to conventional ways. Resist the urge to conform to societal expectations.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -82,8 +82,8 @@
     },
     "virgo": {
       "date": "2026-07-26",
-      "horoscope": "今天，處女座，你可能會發現關於愛情的討論可能會變得有點激烈。雖然你的直覺可能會促使你退後一步，但你周圍的能量可能會推動你探索新的可能性。重要的是要承認您的內心渴望一些空間和獨立。請注意，您的同理心可能會導致您過度分析當前情況。",
-      "horoscope_en": "Today, Virgo, you may find that discussions around love could become a bit heated. While your intuition may be nudging you to take a step back, the energy around you might be pushing you to explore new possibilities. It's important to acknowledge that your heart craves some space and independence. Be mindful that your empathetic disposition might lead you to overanalyze the current situation.",
+      "horoscope": "處女座，今天是充滿潛力的一天，讓你在自己的追求上取得重大進展。然而，要警惕周圍人可能的欺騙，因為幻覺的面紗可能會掩蓋真相。花時間調查並發現真相。保持冷靜的態度將幫助您應對任何挑戰。要小心，因為憤怒或恐懼引起的衝動反應可能會導致併發症。",
+      "horoscope_en": "Virgo, today is a day brimming with potential, allowing you to advance significantly in your pursuits. However, stay vigilant against possible deceit from those around you, as a veil of illusion may obscure the truth. Take the time to investigate and uncover what’s real. Keeping a calm demeanor will help you navigate through any challenges. Be cautious, as impulsive reactions driven by anger or fear could lead to complications.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -95,8 +95,8 @@
     },
     "libra": {
       "date": "2026-07-26",
-      "horoscope": "天秤座，考慮與特別的人一起踏上旅程。擺脫日常生活可能是重新點燃生活浪漫火花的完美方式。如果您單身，出國冒險可能會讓您找到靈魂伴侶。敞開心扉接受新的體驗並接受新的觀點。",
-      "horoscope_en": "Libra, think about embarking on a journey with someone special. A getaway from your everyday routine could be the perfect way to reignite the spark of romance in your life. If you're single, an adventure abroad might just lead you to your soulmate. Open your mind to new experiences and embrace fresh perspectives.",
+      "horoscope": "今天，天秤座，密切關注你的夢想。您是否發現自己羨慕周圍的人，相信他們過著非凡的生活，而您卻感到陷入單調的日常生活中？請記住，擺脫這個循環的力量就在你之內。與其哀嘆自己的處境，不如採取行動。擁抱變化往往比看起來更簡單。讓您的創造力引導您努力實現您最瘋狂的願望。",
+      "horoscope_en": "Today, Libra, pay close attention to your dreams. Are you finding yourself envious of those around you, believing they are leading extraordinary lives while you feel trapped in a monotonous routine? Remember, the power to break free from this cycle lies within you. Instead of lamenting your situation, take action. Embracing change is often simpler than it appears. Allow your creativity to guide you as you strive to bring your wildest aspirations to life.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -108,8 +108,8 @@
     },
     "scorpio": {
       "date": "2026-07-26",
-      "horoscope": "天蠍座，今天是你積極尋求愛情的絕佳機會。不要待在家裡為自己感到難過，而是擁抱你冒險的一面並踏出第一步。請記住，您擁有讓自己擺脫低潮的力量，所以採取行動吧！你的浪漫慾望現在被強烈的激情所推動，所以要注意你的感情的方向。",
-      "horoscope_en": "Scorpio, today is the perfect opportunity for you to actively seek out love. Instead of staying home and feeling sorry for yourself, embrace your adventurous side and make the first move. Remember, you hold the power to lift yourself out of any slump, so take action! Your romantic desires are fueled by intense passion right now, so be mindful of where you direct your affections.",
+      "horoscope": "今天，天蠍座，你可能會注意到工作中存在一些溫和、緩慢移動的能量，但這些能量並不是立即顯而易見的。這些能量有可能釋放你最深的願望。雖然你的夢想可以變成現實，但這個過程可能會逐漸展開，一次一小步，細緻入微。保持毅力並採用非常規方法來實現您的目標。只要你保持對自己的信念，你最終會得到你內心所渴望的一切。",
+      "horoscope_en": "Today, Scorpio, you may notice some gentle, slow-moving energies at work that aren't immediately obvious. These energies hold the potential to unlock your deepest aspirations. While your dreams can transform into reality, the process may unfold gradually, one small, nuanced step at a time. Stay persistent and embrace unconventional methods to reach your goals. As long as you maintain your belief in yourself, you will ultimately attain all that your heart longs for.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -121,8 +121,8 @@
     },
     "sagittarius": {
       "date": "2026-07-26",
-      "horoscope": "射手座，今天對你來說將是非常順利的一天，尤其是在愛情和美學方面。考慮舉辦一次聚會或邀請幾位親密的朋友共進一頓舒適的晚餐。充滿活力的激情點燃你的浪漫和社交精神。這個月你的創造力達到最高點，你會發現你與他人的互動異常和諧。",
-      "horoscope_en": "Today is set to be a wonderfully smooth day for you, Sagittarius, particularly in matters of love and aesthetics. Consider hosting a gathering or inviting a few close friends for a cozy dinner. A vibrant passion ignites your romantic and social spirit. Your creative energy is at its highest this month, and you'll notice that your interactions with others are exceptionally harmonious.",
+      "horoscope": "今天，射手座，你可能會發現自己陷入了衝突的旋風之中。不同的人和環境可能會從多個角度拉扯你，挑戰你內心的平靜。保持靈活性並避免過於固執很重要，因為這可能會進一步加劇緊張局勢。注意因小問題而產生壓力的傾向；改掉這個習慣會對你有好處。",
+      "horoscope_en": "Today, Sagittarius, you might find yourself caught in a whirlwind of conflict. Various individuals and circumstances are likely to tug at you from multiple angles, challenging your peace of mind. It's important to remain flexible and avoid being overly stubborn, as this could escalate tensions further. Be mindful of the tendency to stress over minor issues; steering clear of this habit will serve you well.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -134,8 +134,8 @@
     },
     "capricorn": {
       "date": "2026-07-26",
-      "horoscope": "今天，摩羯座，你可能會發現有必要對你的方法進行一些調整，以與周圍的人建立更好的聯繫。如果您正在尋求愛情和浪漫的關注，請考慮採取更大膽、更自信的立場。志存高遠，毫不猶豫；謹慎行事並留在幕後不太可能產生結果。站起來，勇敢一點，承擔一些風險！",
-      "horoscope_en": "Today, Capricorn, you may find it necessary to make some tweaks in your approach to foster better connections with those around you. If you're seeking attention in love and romance, consider embracing a bolder and more assertive stance. Don't hesitate to aim high; playing it safe and staying in the background is unlikely to yield results. Step up, be courageous, and take some risks!",
+      "horoscope": "摩羯座，今天是你與生活中發生的更廣泛、更漸進的轉變建立聯繫的絕佳機會。考慮致力於一些持久的財務和情感事業。豐富的繁榮觸手可及，但要警惕周遭人潛在的欺騙。警惕那些花言巧語的人和那些做出宏大承諾卻沒有兌現的人。相信您區分真假的能力。",
+      "horoscope_en": "Capricorn, today is a perfect opportunity for you to connect with the broader, more gradual shifts occurring in your life. Think about committing to some enduring financial and emotional ventures. Abundant prosperity is within your reach, but stay alert to potential trickery from those around you. Be cautious of smooth talkers and individuals who make grand promises without follow-through. Trust in your ability to distinguish between what is genuine and what is not.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -147,8 +147,8 @@
     },
     "aquarius": {
       "date": "2026-07-26",
-      "horoscope": "今天，水瓶座，你的浪漫世界就像一個充滿活力的萬花筒，充滿了複雜的設計和不斷變化的魅力。當你度過這一天時，關於你自己和你的人際關係的新見解將會出現在每個角落。當您探索與不同個人的各種承諾時，擁抱多種形式的夥伴關係理念。請記住，需要一系列顏色才能創造出完整的彩虹。",
-      "horoscope_en": "Today, Aquarius, your romantic world resembles a vibrant kaleidoscope, brimming with intricate designs and shifting displays of allure. As you navigate through your day, fresh insights about yourself and your connections will emerge at every corner. Embrace the idea of partnership in its many forms, as you explore various commitments with different individuals. Remember, it takes a spectrum of colors to create a full rainbow.",
+      "horoscope": "水瓶座，今天是你釋放創造力的完美日子。為你遇到的每個項目、情況或人注入一點藝術氣息。讓您的想像滲透到生活的各個領域，並樂於接受新的想法和方法。將傳統價值與創新理念融為一體。雖然新舊事物最初可能會出現不一致，但您的任務是協調它們。",
+      "horoscope_en": "Today is the perfect day for you to unleash your creative spirit, Aquarius. Infuse a bit of artistry into every project, situation, or person you come across. Allow your imagination to permeate all areas of your life, and stay receptive to fresh ideas and approaches. Blend traditional values with innovative concepts. While the old and new may initially appear at odds, it's your task to harmonize them.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -160,8 +160,8 @@
     },
     "pisces": {
       "date": "2026-07-26",
-      "horoscope": "雙魚座，在內心的事情上擁抱你大膽的一面。一個微小的火花可能正是您重新點燃逐漸消退的激情所需要的。目前您的浪漫生活可能正在經歷重大轉變。如果是這種情況，請探索所有可能性，並對人際關係中的新方法持開放態度。您的合作夥伴可能掌握著您正在尋找的見解的關鍵。",
-      "horoscope_en": "Embrace your bold side in matters of the heart, Pisces. A tiny spark could be just what you need to reignite a fading passion. You might be experiencing a significant shift in your romantic life at the moment. If that's the case, explore all possibilities and be open to fresh approaches in your relationships. Your partner might hold the key to the insights you’re looking for.",
+      "horoscope": "雙魚座，今天謹慎對待你的資源是明智的。選擇感覺最安全的路徑。雖然有一股能量推動你採取行動，但要小心不要讓你的觀點變得過於僵化。這可能會在您和那些為您提供支持的人之間產生隔閡。努力在熟悉和新穎之間找到和諧的平衡。以開放的心態擁抱變化，並記住保持心態的適應性。",
+      "horoscope_en": "Pisces, it's wise to be cautious with your resources today. Opt for the path that feels most secure. While there's a surge of energy pushing you to take action, be careful not to become too rigid in your views. This could drive a wedge between you and those who offer you support. Strive to find a harmonious balance between the familiar and the novel. Embrace change with an open heart, and remember to keep your mindset adaptable.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"

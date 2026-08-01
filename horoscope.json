@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T22:56:56.851Z",
+  "generated_at": "2026-08-01T22:51:45.056Z",
   "weekly_reference": [
     {
       "name": "唐綺陽占星幫（Facebook）",
@@ -16,48 +16,9 @@
   },
   "signs": {
     "aries": {
-      "date": "2026-07-31",
-      "horoscope": "牡羊座，無需為你的旅程煩惱；你就在你需要去的地方。你有在正確的時間發現自己處於正確的位置的訣竅。放下對過去事件的任何遺憾或羞恥感。相反，請將這些具有挑戰性的經驗轉化為寶貴的經驗教訓，為更光明的未來鋪平道路。雖然你可能沒有能力改變特定的情況，但你當然可以改變你對它的反應。",
-      "horoscope_en": "Aries, there's no need to fret about your journey; you're exactly where you need to be. You have a knack for finding yourself in the right spot at the right moment. Let go of any feelings of regret or shame regarding past events. Instead, transform those challenging experiences into valuable lessons that pave the way for a brighter future. While you may not have the power to alter a specific circumstance, you can certainly shift how you respond to it.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "象牙白",
-      "lucky_color_hex": "#EDEAE0",
-      "lucky_time": "06:00–08:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "taurus": {
-      "date": "2026-07-31",
-      "horoscope": "今天，金牛座，你可能會發現自己處於日益緊張的境地。激烈的討論可能會迅速升級，因此保持腳踏實地很重要。避免讓挫折打敗你，並注意不要切斷任何聯繫。你的話很有分量，尤其是對於那些現在特別敏感的人來說，所以要明智地選擇它們。你內心深處充滿活力的一面渴望表達，所以不要猶豫，坦誠而真誠地分享你的想法。",
-      "horoscope_en": "Today, Taurus, you might find yourself in the midst of rising tensions. Passionate discussions could escalate quickly, so it's important to stay grounded. Avoid letting frustration get the best of you, and be mindful not to sever any connections. Your words carry weight, especially for those who are particularly sensitive right now, so choose them wisely. There's a vibrant aspect of your inner self that craves expression, so don’t hesitate to share your thoughts candidly and sincerely.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "薰衣草紫",
-      "lucky_color_hex": "#B497D6",
-      "lucky_time": "18:00–20:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "gemini": {
-      "date": "2026-07-31",
-      "horoscope": "雙子座，仔細聆聽內心催促你踩剎車的聲音。退一步，讓別人負責可能是目前最明智的選擇。將你的精力集中在家庭生活上，並處理與你所愛的人有關的任何問題。請注意，緊張局勢可能正在表面下醞釀，無論您是否承認，都有重要的事情需要您注意。",
-      "horoscope_en": "Gemini, listen closely to that inner voice urging you to hit the brakes. Taking a step back and allowing someone else to take charge might be the wisest choice right now. Focus your energy on home life and attend to any concerns that arise with your loved ones. Be aware that tensions may be simmering beneath the surface, and whether you acknowledge it or not, there are significant matters that require your attention.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "銀灰",
-      "lucky_color_hex": "#B0B0B0",
-      "lucky_time": "08:00–10:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "cancer": {
-      "date": "2026-07-31",
-      "horoscope": "今天是你採取行動的絕佳機會，巨蟹座。對新體驗的好奇心會放大你探索未知水域的渴望。深入內心深處，發現等待著的驚人寶藏。你擁有一種常常被隱藏的非凡力量。抓住這一天向周圍的人展示你的勇敢。",
-      "horoscope_en": "Today is an excellent opportunity for you to make your move, Cancer. Your desire to explore uncharted waters is amplified by a curiosity for new experiences. Dive deep within yourself and uncover the amazing treasures that await. You possess a remarkable strength that often remains hidden. Seize this day to showcase your bravery to those around you.",
+      "date": "2026-08-01",
+      "horoscope": "今天，白羊座，是時候踩剎車並採取更深思熟慮、溫和和戰略性的思維方式了，尤其是在與愛情和美學相關的領域。如果你準備好完全擁抱它，你會發現更深刻的性感。追求你想要的東西，但記得要小心並保持克制。",
+      "horoscope_en": "Today, Aries, it's time to hit the brakes and adopt a more thoughtful, gentle, and strategic mindset, particularly in areas related to love and aesthetics. You'll discover a deeper sense of sensuality if you're ready to embrace it fully. Pursue what you desire, but remember to do so with care and a sense of restraint.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -67,62 +28,36 @@
       "lucky_time": "18:00–20:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "leo": {
-      "date": "2026-07-31",
-      "horoscope": "今天，獅子座，在做出任何決定之前停下來反思是明智的。衝動的行為可能會導致併發症。您的日常流程可能會遇到意外中斷，這可能會讓您失去平衡。在倉促採取任何行動之前，先花點時間徹底評估情況。請記住，障礙可以作為宇宙溫柔的提醒，讓我們退後一步，謹慎行事。抓住機會放慢腳步。",
-      "horoscope_en": "Today, Leo, it's wise to pause and reflect before making any decisions. Impulsive actions could lead to complications. You might encounter an unexpected disruption in your usual flow, which could catch you off balance. Take a moment to assess the situation thoroughly before rushing into anything. Remember, obstacles can serve as gentle reminders from the universe to take a step back and proceed with caution. Embrace the opportunity to slow your pace.",
+    "taurus": {
+      "date": "2026-08-01",
+      "horoscope": "金牛座，你正處於愛情和美學方面的關鍵時刻。你的創造力正在飆升，你可能會發現自己受到啟發去從事一個宏偉的藝術計畫。請記住，有效引導創造力需要紀律。不要讓恐懼阻礙你。朝著你的願望邁出第一步，更精細的細節會在適當的時候自然解決。",
+      "horoscope_en": "Taurus, you're reaching a pivotal moment in matters of love and aesthetics. Your creativity is soaring, and you might find yourself inspired to work on a grand artistic project. Remember, it takes discipline to channel that creative energy effectively. Don't allow fear to hold you back. Take the first step towards your aspirations, and the finer details will sort themselves out in due time.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "象牙白",
-      "lucky_color_hex": "#EDEAE0",
+      "lucky_color": "湖水綠",
+      "lucky_color_hex": "#4FB8AF",
       "lucky_time": "06:00–08:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "virgo": {
-      "date": "2026-07-31",
-      "horoscope": "處女座，今天是對那些在你腦海中醞釀了一段時間的想法採取行動的最佳時機。如果您一直感到有點不確定，請記住，承認您還沒有弄清楚所有事情是完全可以的。將其視為重組和重新創造的機會。不要迴避未知，而要張開雙臂歡迎它。現在是邁向新的可能性的絕佳時機。",
-      "horoscope_en": "Virgo, today is the perfect moment to take action on those ideas that have been simmering in your mind for a while. If you've been feeling a bit uncertain, remember that it's perfectly fine to acknowledge that you don't have everything figured out. View this as a chance to reorganize and create anew. Instead of shying away from the unknown, welcome it with open arms. Now is an excellent time to step forward into new possibilities.",
+    "gemini": {
+      "date": "2026-08-01",
+      "horoscope": "今天，雙子座，你可能會發現你一直迴避的生活中的某些方面正在需要你的關注。你一直忽略的混亂正在升級，提醒你讓你的事務井然有序。是時候正面解決這些問題並為混亂帶來一些結構了。留意時間的流逝；推動您履行職責的背後是有目的的。",
+      "horoscope_en": "Today, Gemini, you might find that aspects of your life you've been sidestepping are demanding your attention. The disarray you've been ignoring is escalating, serving as a reminder to get your affairs in order. It's time to tackle these issues head-on and bring some structure to the chaos. Be mindful of the passing time; there's a purpose behind this push to address your responsibilities.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "酒紅",
-      "lucky_color_hex": "#7B2D42",
-      "lucky_time": "20:00–22:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "libra": {
-      "date": "2026-07-31",
-      "horoscope": "今天，天秤座，謹慎選擇言語很重要。你的思緒可能會嗡嗡作響，甚至有點不穩定。這可能會促使您更公開地表達您的觀點。然而，當您分享您的見解時，請記住考慮其他人的感受。不同的觀點可能會導致不同的反應，因此請務必尊重這些不同的意見。",
-      "horoscope_en": "Today, Libra, it's important to choose your words with care. Your thoughts are likely to be buzzing and perhaps a little unsettled. This could be a nudge for you to express your views more openly. However, as you share your insights, remember to take into account how others might feel. Different perspectives can lead to varied reactions, so be sure to honor those differing opinions.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "焦糖棕",
-      "lucky_color_hex": "#A9714B",
-      "lucky_time": "10:00–12:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "scorpio": {
-      "date": "2026-07-31",
-      "horoscope": "天蠍座，你的思維敏銳，直覺敏銳。這是您採取行動的好時機。不要讓懷疑或恐懼阻礙您追求自己的願望。請記住，您今天採取的步驟不一定要宏偉或公開才能產生影響。事實上，情況往往恰恰相反。透過向內引導你的思想和能量，你可以取得顯著的進步。",
-      "horoscope_en": "Scorpio, your thoughts are sharp and your intuition is heightened. This is an opportune moment for you to take action. Don't allow doubts or fears to hinder your pursuit of your aspirations. Remember, the steps you take today don’t have to be grand or overt to be impactful. In fact, the opposite is often the case. You can achieve significant progress by channeling your thoughts and energy inward.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "玫瑰粉",
-      "lucky_color_hex": "#E8A0BF",
+      "lucky_color": "日落橙",
+      "lucky_color_hex": "#F4A261",
       "lucky_time": "12:00–14:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "sagittarius": {
-      "date": "2026-07-31",
-      "horoscope": "今天休息一下，射手座。這是將注意力轉向內心並優先考慮自己的幸福的理想時刻。善待您的身體。反思您渴望體現和培養內在自我的品質。改變你的自我認知，不再尋求外在的認可；請記住，您真正的美麗是由內而外散發出來的。",
-      "horoscope_en": "Take a breather today, Sagittarius. It's an ideal moment to turn your attention inward and prioritize your well-being. Treat your body with the care it merits. Reflect on the qualities you aspire to embody and nurture your inner self. Shift your self-perception away from seeking validation from the outside world; remember, your genuine beauty radiates from within.",
+    "cancer": {
+      "date": "2026-08-01",
+      "horoscope": "今天，巨蟹座，愛在空氣中瀰漫，丘比特之箭射中了你的心！這是與那個特別的人相處的最佳時機。你會發現自己感覺特別熱情和深情。今晚盡情享用精緻的美食和令人愉悅的葡萄酒。請記住，適度的節制可能是必要的，但不要讓它阻礙您享受這一刻。",
+      "horoscope_en": "Today, Cancer, love is in the air as Cupid's arrow strikes your heart! It's the perfect time to cozy up with that special someone. You'll find yourself feeling particularly passionate and affectionate. Indulge in exquisite meals and delightful wines this evening. Just keep in mind that a touch of moderation might be necessary, but don't let that hold you back from enjoying the moment.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -132,23 +67,23 @@
       "lucky_time": "06:00–08:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "capricorn": {
-      "date": "2026-07-31",
-      "horoscope": "今天，摩羯座，你的智慧和內心的戰士完美和諧。與那些與您的想法和願望產生共鳴的人合作。參與討論可以讓你對自己有重要的了解。抓住機會表達您內心的想法和感受。透過開放，你展現了你對自己的選擇和情感的信心。",
-      "horoscope_en": "Today, Capricorn, your intellect and inner warrior are in perfect harmony. Collaborate with those who resonate with your ideas and aspirations. Engaging discussions can lead to significant insights about yourself. Embrace the opportunity to reveal your innermost thoughts and feelings. By opening up, you showcase your confidence in your choices and emotions.",
+    "leo": {
+      "date": "2026-08-01",
+      "horoscope": "獅子座，你的創造力可能會暫時停滯，但不要將此視為放棄藝術抱負的理由。實現願望的關鍵在於您的承諾和紀律。保持專注，不要讓他人的影響力分散你的注意力。重新連結您的創意流程並繼續前進。",
+      "horoscope_en": "Leo, you might encounter a temporary lull in your creativity, but don’t interpret this as a reason to abandon your artistic ambitions. The key to bringing your desires to life lies in your commitment and discipline. Stay focused and don’t allow the influences of others to distract you from your path. Reconnect with your creative flow and keep moving forward.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "鵝黃",
-      "lucky_color_hex": "#F7E17B",
-      "lucky_time": "16:00–18:00",
+      "lucky_color": "深海藍",
+      "lucky_color_hex": "#1B3A5C",
+      "lucky_time": "18:00–20:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "aquarius": {
-      "date": "2026-07-31",
-      "horoscope": "今天，水瓶座，你可能會發現自己面臨挑戰或需要你關注的人。在了解所有細節之前，不要急於下結論，這一點很重要。如果情況還有尚未解決的方面，請立即解決。請記住，您的敏感度是一種寶貴的特質，即使您並不總是承認這一點。小問題會逐漸壓在你的心頭，直到你面對並解決它們。",
-      "horoscope_en": "Today, Aquarius, you may find yourself facing a challenge or an individual that requires your attention. It's important to refrain from jumping to conclusions before you have all the details. If there's an unresolved aspect of the situation, tackle it head-on without delay. Remember, your sensitivity is a valuable trait, even if you don't always acknowledge it. Minor issues can gradually weigh on your mind until you confront and resolve them.",
+    "virgo": {
+      "date": "2026-08-01",
+      "horoscope": "處女座，今天對你來說具有巨大的潛力，因為你可以將創造力注入更有組織的環境。增強空間的美感將激發您維持秩序和紀律的動力。記得調整自己的步調；不要讓別人的壓力迫使你做出沒有準備的倉促決定。",
+      "horoscope_en": "Today holds significant potential for you, Virgo, as you can infuse creativity into a more organized environment. Enhancing the beauty of your space will spark your motivation to maintain order and discipline. Remember to pace yourself; don’t allow the stress of others to push you into hasty decisions that you're not prepared for.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -158,17 +93,82 @@
       "lucky_time": "16:00–18:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "pisces": {
-      "date": "2026-07-31",
-      "horoscope": "今天，雙魚座，擁抱你內在的力量和智慧。您有能力應對遇到的任何挑戰。不要讓恐懼或過去的遺憾阻止你。當您探索新領域時，無論是字面上還是隱喻上，都充滿信心地前進。保持你的注意力集中，勇敢地向前邁出一步。是時候擺脫任何可能阻礙你進步的心理障礙了。",
-      "horoscope_en": "Today, Pisces, embrace your inner strength and intellect. You possess the ability to navigate through any challenges that come your way. Don't allow fear or past regrets to deter you. Forge ahead with confidence as you explore new territories, both literally and metaphorically. Keep your focus sharp and take courageous steps forward. It's time to break free from any mental barriers that could impede your progress.",
+    "libra": {
+      "date": "2026-08-01",
+      "horoscope": "今天，天秤座，明智的選擇是把你的精力投入到哪裡。避免將時間投入到不支持您的目標或福祉的情況。您可能很難找到自己的動力，但這完全沒關係。考慮一下這一天，放鬆一下。您可能感覺能量水平有點低，因此請謹慎使用。記得在一天中調整自己的步調。",
+      "horoscope_en": "Today, Libra, it's wise to be choosy about where you direct your energy. Avoid investing time in situations that don't support your goals or well-being. You might struggle to find your motivation, and that's perfectly okay. Consider this a day to take it easy. Your energy levels may feel a bit low, so use them sparingly. Remember to pace yourself as you move through the day.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "珊瑚橘",
-      "lucky_color_hex": "#FF7F50",
+      "lucky_color": "象牙白",
+      "lucky_color_hex": "#EDEAE0",
+      "lucky_time": "06:00–08:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "scorpio": {
+      "date": "2026-08-01",
+      "horoscope": "天蠍座，今天會給你帶來一股愛情和浪漫的浪潮，但請記住腳踏實地。重要的是不要忽視人際關係的價值。要明白，愛情並不總是完美的。培養蓬勃發展的夥伴關係通常需要堅實的結構和紀律基礎。你有能力無縫地融合這些特質，所以利用這種能量來增強你的連結。",
+      "horoscope_en": "Today brings a wave of love and romance your way, Scorpio, but remember to keep your feet on the ground. It's crucial not to overlook the value of your relationships. Understand that love isn't always about perfection. A solid foundation of structure and discipline is often needed to nurture a thriving partnership. You have the ability to blend these qualities seamlessly, so harness this energy to enhance your connections.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "松石綠",
+      "lucky_color_hex": "#2E8B8B",
+      "lucky_time": "08:00–10:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "sagittarius": {
+      "date": "2026-08-01",
+      "horoscope": "今天，射手座，在愛情和浪漫的領域後退一步可能是明智的。請記住，您與他人的聯繫不僅僅是為了展示或娛樂。利用這一天真正傾聽您的伴侶所說的話，並考慮對您們的關係進行調整，以增強和諧和輕鬆。",
+      "horoscope_en": "Today, Sagittarius, it might be wise to take a step back in the realm of love and romance. Remember, your connections with others aren't just for display or entertainment. Use this day to truly hear what your partner has to say and consider making adjustments in your relationship to enhance harmony and ease.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "深海藍",
+      "lucky_color_hex": "#1B3A5C",
+      "lucky_time": "18:00–20:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "capricorn": {
+      "date": "2026-08-01",
+      "horoscope": "今天，摩羯座，花點時間退後一步，觀察周圍人的行為。關注他們的行為及其背後的動機；他們的成功和失誤有很多值得學習的地方。反思你的榜樣和你所欽佩的人。找出吸引你的品質，並努力將這些品質融入你自己的生活中。",
+      "horoscope_en": "Today, Capricorn, take a moment to step back and watch how those around you behave. Pay attention to their actions and the motivations behind them; there's much to learn from their successes and missteps. Reflect on your role models and those you admire. Identify the qualities that draw you to them and strive to incorporate those characteristics into your own life.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "玫瑰粉",
+      "lucky_color_hex": "#E8A0BF",
+      "lucky_time": "12:00–14:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "aquarius": {
+      "date": "2026-08-01",
+      "horoscope": "水瓶座，今天你的浪漫生活可能會感覺有點微妙，因為你的伴侶似乎比平常更敏感。採用更溫和、更有同理心的方式會加強你們的連結。設定明確的界線以確保與親人和諧相處也很重要。",
+      "horoscope_en": "Aquarius, your romantic life may feel a bit delicate today, as your partner seems to be more sensitive than normal. Embracing a gentler, more empathetic approach will strengthen your bond. It's also important to set clear boundaries to ensure harmony with your loved ones.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "酒紅",
+      "lucky_color_hex": "#7B2D42",
       "lucky_time": "20:00–22:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "pisces": {
+      "date": "2026-08-01",
+      "horoscope": "目前，雙魚座，你的浪漫和美學追求正在蓬勃發展，這是向你的迷戀邁出一步的理想時刻。然而，必須以腳踏實地的視角來處理這個問題。承認一些自律可能是必要的。建立一個堅實的框架，讓您能夠有效地駕馭這些感受。",
+      "horoscope_en": "Currently, Pisces, your romantic and aesthetic pursuits are flourishing, making it an ideal moment to take a step towards your crush. However, it's essential to approach this with a grounded perspective. Acknowledge that some self-discipline may be necessary. Establish a solid framework that allows you to navigate these feelings effectively.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "銀灰",
+      "lucky_color_hex": "#B0B0B0",
+      "lucky_time": "08:00–10:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     }
   }

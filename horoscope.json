@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:24:33.390Z",
+  "generated_at": "2026-08-09T22:26:41.359Z",
   "weekly_reference": [
     {
       "name": "唐綺陽占星幫（Facebook）",
@@ -16,74 +16,9 @@
   },
   "signs": {
     "aries": {
-      "date": "2026-08-08",
-      "horoscope": "您可能會注意到，引起您注意的人似乎被另一個人所吸引。這可能會激起你內心的一些不安全感和一絲嫉妒。深吸一口氣，牡羊座；事情可能不像看起來的那樣。集中精力揭露真相。此外，您可能會在同一晚收到多份邀請，這可能會讓您陷入困境。選擇適合您的選項。",
-      "horoscope_en": "You might notice that someone who has caught your attention appears to be drawn to another person. This could stir up some insecurities and a hint of jealousy within you. Take a breath, Aries; things may not be as they appear. Focus on uncovering the truth. Additionally, you may receive multiple invitations for the same evening, which could put you in a tricky position. Choose the option that feels right for you.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "珊瑚橘",
-      "lucky_color_hex": "#FF7F50",
-      "lucky_time": "20:00–22:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "taurus": {
-      "date": "2026-08-08",
-      "horoscope": "金牛座，你周圍隱藏著真相。雖然每個人都有自己的掙扎，但這件事直接影響你。相信你的直覺；他們可能會洩漏秘密守護者的身分。溫和地接近他們，鼓勵他們誠實，而不會讓他們感到被逼到絕境。同時，一堆未完成的任務可能會沉重地壓在你的心頭。抵制匆忙通過它們的衝動，因為這可能會導致不必要的壓力。專注於完成最重要的事情，讓其餘的事情暫時擱置。今晚看一部好電影放鬆一下。",
-      "horoscope_en": "There are hidden truths around you, Taurus. While everyone has their own struggles, this particular matter directly impacts you. Trust your instincts; they might reveal the identity of the secret-keeper. Approach them gently to encourage honesty without making them feel cornered. Meanwhile, the pile of incomplete tasks may be weighing heavily on your mind. Resist the urge to rush through them, as this could lead to unnecessary stress. Focus on completing the most important ones and allow the rest to slide for now. Wind down this evening with a good movie.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "酒紅",
-      "lucky_color_hex": "#7B2D42",
-      "lucky_time": "20:00–22:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "gemini": {
-      "date": "2026-08-08",
-      "horoscope": "意外情況可能會阻止你參加集體聚會，這可能會讓你和你的朋友雙子座感到失望。相反，請考慮從事替代活動。你的個人專案需要你集中註意力，它可能會變成一項引人入勝的挑戰，讓你著迷幾個小時。今晚晚餐為什麼不吃點外賣呢？",
-      "horoscope_en": "Unexpected situations may prevent you from joining a group gathering, which could lead to some letdown for both you and your friends, Gemini. Instead, consider pursuing an alternative activity. Your personal project is calling for your focus, and it might turn into an engaging challenge that captivates you for hours. Why not indulge in some takeout for dinner tonight?",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "焦糖棕",
-      "lucky_color_hex": "#A9714B",
-      "lucky_time": "10:00–12:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "cancer": {
-      "date": "2026-08-08",
-      "horoscope": "今天，您可能會聽到一位女士尋求您的同情和支持。她可能會就她面臨的挑戰尋求指導，但她也可以分享與新的科學或形而上學研究相關的有趣見解，這些都會引起您的興趣。這次交流可能會激發你自己的啟示，所以一定要記下你的想法。您會想要記錄這些想法！",
-      "horoscope_en": "Today, you might hear from a woman seeking your compassion and support. She may reach out for guidance regarding her challenges, but she could also share intriguing insights related to new scientific or metaphysical research that will captivate your interest. This exchange may spark your own revelations, so be sure to jot down your thoughts. You'll want to keep track of these ideas!",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "珊瑚橘",
-      "lucky_color_hex": "#FF7F50",
-      "lucky_time": "20:00–22:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "leo": {
-      "date": "2026-08-08",
-      "horoscope": "獅子座，你可能會發現一些重要的計劃，可能與旅行或學習有關，今天面臨意想不到的障礙。這可能會導致挫折感，甚至可能考驗您的耐心。雖然向周圍的人發洩憤怒可能很容易，但請考慮將這種能量引導到創造性地克服這些障礙上。儘管這可能很困難，但找到實現目標的替代方法，即使需要更長的時間，也會更有價值。",
-      "horoscope_en": "Leo, you might find that some significant plans, possibly related to travel or learning, are facing unexpected hurdles today. This could lead to feelings of frustration and may even test your patience. While it might be easy to vent your irritation on those around you, consider channeling that energy into creatively overcoming these obstacles. Although it may be tough, finding alternative ways to achieve your goals, even if they take a little longer, will be far more rewarding.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "珊瑚橘",
-      "lucky_color_hex": "#FF7F50",
-      "lucky_time": "20:00–22:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "virgo": {
-      "date": "2026-08-08",
-      "horoscope": "今天，處女座，你可能會收到一封信或電話，傳達一些有關財務的令人沮喪的消息。你最初的本能可能是指責自己或他人，但請記住，這種情況很可能超出任何人的控制範圍。解決這個問題的機會很大。在情緒高漲之前，花點時間深入挖掘並了解需要採取哪些行動。這可能需要一些工作，但請放心，一切都會好起來的。",
-      "horoscope_en": "Today, Virgo, you may receive a letter or phone call that delivers some disheartening news regarding finances. Your initial instinct might be to point fingers at yourself or others, but remember that the situation is likely out of anyone's hands. There's a good chance it can be resolved. Before emotions run high, take a moment to dig deeper and understand what actions are necessary. It may require some work, but rest assured, everything will turn out fine.",
+      "date": "2026-08-09",
+      "horoscope": "牡羊座，一個生動而情感豐富的夢可能會讓你感覺好像它真的發生過一樣。一定要記下來；它可能具有重要意義。你在職業生涯中應對挑戰和進步的努力最終可能會產生成果，讓你處於難以置信的狀態。擁抱這一現實並充分利用它。不要猶豫，表達你的情感！",
+      "horoscope_en": "A vivid and emotional dream may leave you feeling as though it truly happened, Aries. Be sure to jot it down; it might hold significance. Your hard work to tackle challenges and progress in your career could finally yield results, leaving you in a state of disbelief. Embrace this reality and take full advantage of it. Don't hesitate to express your emotions!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -93,10 +28,88 @@
       "lucky_time": "18:00–20:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
+    "taurus": {
+      "date": "2026-08-09",
+      "horoscope": "金牛座，準備好與你的伴侶進行一些真誠的對話，這可能會讓你熱淚盈眶。您已經克服了挑戰，並可能找到了更深層的聯繫。現在開始或加深的任何新關係或友誼都具有力量和長久的潛力。雖然您的本能可能是控制自己的情緒，但請毫不猶豫地表達出來。在這樣的時刻表現出脆弱是完全可以的。",
+      "horoscope_en": "Taurus, prepare for some heartfelt conversations with your partner that may bring tears to your eyes. You've navigated through challenges and likely found a deeper connection. Any new relationships or friendships that begin or deepen now hold the potential for strength and longevity. While your instinct may be to keep your emotions in check, don't hesitate to express them. It's perfectly fine to be vulnerable in moments like these.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "象牙白",
+      "lucky_color_hex": "#EDEAE0",
+      "lucky_time": "06:00–08:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "gemini": {
+      "date": "2026-08-09",
+      "horoscope": "雙子座，今天你可能會發現自己受到啟發去處理家裡的各種任務。無論您是在為即將到來的客人做準備，還是只是想煥然一新的空間以供自己享受，慢慢來都很重要。避免一次匆忙完成所有事情的誘惑，因為您可能會遇到挑戰，可能需要不在場的其他人的幫助。記得要控制好自己的節奏，抵制強行完成待辦事項清單的衝動。",
+      "horoscope_en": "Gemini, today you might find yourself inspired to tackle various tasks around your home. Whether you're preparing for upcoming guests or just want to refresh your space for your own enjoyment, it's important to take it slow. Avoid the temptation to rush through everything at once, as you might encounter challenges that could require assistance from others who may not be around. Remember to manage your pace and resist the urge to bulldoze through your to-do list.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "玫瑰粉",
+      "lucky_color_hex": "#E8A0BF",
+      "lucky_time": "12:00–14:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "cancer": {
+      "date": "2026-08-09",
+      "horoscope": "與親密的朋友或伴侶進行深入的對話可能會發現關於你們關係的令人愉快的見解。您可能會發現您之間的相似之處比您意識到的要多，並且您所持有的任何擔憂或懷疑可能都是沒有根據的。這可能會在你們的關係中帶來更牢固的聯繫和新的共同方向。擁抱流淌在您身邊的振奮人心的情緒，祝您有美好的一天！",
+      "horoscope_en": "Engaging in deep conversations with a dear friend or partner may uncover delightful insights about your bond. You might find that you share more similarities than you realized, and any worries or doubts you held may turn out to be unfounded. This could lead to a stronger connection and a newfound shared direction in your relationship. Embrace the uplifting emotions that flow your way and have a fantastic day!",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "湖水綠",
+      "lucky_color_hex": "#4FB8AF",
+      "lucky_time": "06:00–08:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "leo": {
+      "date": "2026-08-09",
+      "horoscope": "今天，獅子座，你可能會發現古老的社會習俗在你的生活中發揮著重要作用。一個充滿情感的家庭場合，例如組織婚禮或慶祝一個重要的里程碑，可能會激起你內心深處的情感。雖然你可能會在忙碌的活動中感到壓抑自己的情緒，但今天保持優雅的外表可能是你的首要任務。保持外表是完全可以的，但也要記得忠於自己。",
+      "horoscope_en": "Today, Leo, you may find that age-old social customs play a significant role in your life. An emotional family occasion, like organizing a wedding or celebrating a major milestone, might stir deep feelings within you. While you may feel the urge to hold back your emotions amidst the flurry of activities, maintaining a polished exterior could take precedence for you today. It's perfectly fine to uphold appearances, but remember to stay true to yourself as well.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "薰衣草紫",
+      "lucky_color_hex": "#B497D6",
+      "lucky_time": "18:00–20:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "virgo": {
+      "date": "2026-08-09",
+      "horoscope": "你經常優先考慮自律，而今天，當你遇到一些令人高興的消息，可能會讓你流淚時，這種特質會對你很有幫助。不要壓抑太多；稍微表達一下你的情緒是完全可以的。你在職涯中的承諾和努力開始產生成果，你可能會聽到潛在的晉升。期待充滿興奮的一天！",
+      "horoscope_en": "You often prioritize self-discipline, and today, that trait will serve you well as you encounter some delightful news that could bring you to tears. Don’t hold back too much; it’s perfectly fine to express your emotions a little. Your commitment and effort in your professional life are starting to yield results, and you might hear about potential promotions. Expect a day full of excitement!",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "鵝黃",
+      "lucky_color_hex": "#F7E17B",
+      "lucky_time": "16:00–18:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
     "libra": {
-      "date": "2026-08-08",
-      "horoscope": "今天，天秤座，你可能會發現嫉妒正在蔓延到你的生活中，尤其是在你的浪漫關係中。請記住，嫉妒通常缺乏堅實的基礎，因此透過公開對話解決任何擔憂是明智的。利用這一刻將潛在的挫折轉化為踏腳石。如果正確引導，強烈的情感是有益的。真誠的和解遠比痛苦的分離更有意義。",
-      "horoscope_en": "Today, Libra, you might find jealousy creeping into your life, particularly in your romantic connections. Remember, jealousy often lacks a solid foundation, so it's wise to address any concerns through open dialogue. Use this moment to transform a potential setback into a stepping stone. Strong feelings can be beneficial if channeled correctly. A heartfelt reconciliation is far more rewarding than a bitter separation.",
+      "date": "2026-08-09",
+      "horoscope": "天秤座，準備好迎接一些令人興奮的財經新聞吧，這也可能標誌著你職業生涯的進步。你可能會發現很難抑制幸福的眼淚！親密的女性朋友可能面臨重大轉變，很可能會尋求你的支持。你能做的最有幫助的事情就是傾聽而不是提供建議。然而，你可能需要保持克制，因為情況可能看起來很不合理。",
+      "horoscope_en": "Prepare for some exciting financial news, which could also signal a step up in your career, Libra. You might find it hard to hold back tears of happiness! A close female friend may be facing significant transformations and will likely seek your support. The most helpful thing you can do is lend an ear rather than dispense advice. However, you might need to exercise restraint, as the circumstances could seem quite irrational.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "湖水綠",
+      "lucky_color_hex": "#4FB8AF",
+      "lucky_time": "06:00–08:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "scorpio": {
+      "date": "2026-08-09",
+      "horoscope": "天蠍座，與心愛的女性家庭成員一起度過的快樂時光可能會激起你內心深處的情感。這可能與婚禮或新生兒的到來有關。即使面對過去的挑戰，你們一直致力於的合作努力也可能蓬勃發展。結果可能會深深觸動你的心。雖然您可能想抑制自己的情緒，但請記住，表達自己的感受是完全可以的。",
+      "horoscope_en": "Joyful moments with a beloved female family member may stir deep emotions within you, Scorpio. This could be linked to a wedding or the arrival of a new baby. Collaborative efforts you've been working on are likely to flourish, even in the face of past challenges. The outcomes may touch your heart profoundly. While you might feel the urge to hold back your emotions, remember that it's perfectly okay to express what you're feeling.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -106,49 +119,10 @@
       "lucky_time": "08:00–10:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "scorpio": {
-      "date": "2026-08-08",
-      "horoscope": "天蠍座，你今天可能會發現自己有點緊張，這可能會導致疲勞感。儘管如此，仍有一些責任等著你的注意，無論你的精力水平如何，你可能都會覺得有必要解決這些問題。記得調整自己的節奏，避免將疲憊投射到周圍的人身上。有時，讓某些事情順其自然更明智，而不是給自己和他人的生活增加不必要的壓力。",
-      "horoscope_en": "You might find yourself feeling a bit on edge today, Scorpio, which could lead to a sense of fatigue. Despite this, there are responsibilities awaiting your attention, and you may feel compelled to tackle them regardless of your energy levels. Remember to pace yourself and avoid projecting your exhaustion onto those around you. Sometimes, it's wiser to let certain things slide rather than adding unnecessary stress to your life and the lives of others.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "丁香紫",
-      "lucky_color_hex": "#C8A2C8",
-      "lucky_time": "10:00–12:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
     "sagittarius": {
-      "date": "2026-08-08",
-      "horoscope": "今天，射手座，你可能會發現你所屬的一個團體的成員之間正在經歷一些不和。與戲劇保持距離是明智的。朋友可能會在困難時期向你尋求支持，所以盡量對他們的掙扎保持耐心。雖然今天可能感覺有點挑戰，但專注於自己的專案將會是有益的。請記住，光明的日子即將到來。",
-      "horoscope_en": "Today, Sagittarius, you might find that a group you're part of is experiencing some discord among its members. It's wise to keep your distance from the drama. A friend may reach out to you for support during a tough time, so try to be patient with their struggles. While today may feel a bit challenging, focusing on your own projects will be beneficial. Remember, brighter days are just around the corner.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "珊瑚橘",
-      "lucky_color_hex": "#FF7F50",
-      "lucky_time": "20:00–22:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "capricorn": {
-      "date": "2026-08-08",
-      "horoscope": "摩羯座，你的家庭內部發生的轉變可能會給你的家人帶來一些壓力和緊張的神經。無論您是搬遷、重新裝修還是進行深度清潔，似乎每個人都在互相踩腳。集中精力快速完成手邊的任務。一旦一切都井然有序，緊張就會緩解，和諧就會恢復。",
-      "horoscope_en": "Transformations happening within your household may lead to a bit of stress and frayed nerves among your family, Capricorn. Whether you're relocating, redecorating, or undertaking a deep clean, it seems like everyone is stepping on each other's toes. Focus on completing the task at hand swiftly. Once everything is in order, the tension will ease, and harmony will be restored.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "薄荷綠",
-      "lucky_color_hex": "#98D8C8",
-      "lucky_time": "14:00–16:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "aquarius": {
-      "date": "2026-08-08",
-      "horoscope": "與遠方某人的誤會可能會激起受傷的感情並導致激烈的交流。水瓶座，避免捲入任何糾紛是明智的。集中精神冷靜地解決問題。此外，當地的變化可能會打亂您的旅行計劃，因此請做好應對擁擠道路和繞行的準備。選擇步行；它將幫助您理清思緒並更快地到達目的地。",
-      "horoscope_en": "A misunderstanding with someone from a distance might stir up hurt feelings and lead to heated exchanges. Aquarius, it's wise to avoid getting caught up in any disputes. Focus on resolving the issue calmly. Additionally, local changes may disrupt your travel plans, so brace yourself for congested roads and detours. Opt for walking instead; it will help clear your mind and get you to your destination faster.",
+      "date": "2026-08-09",
+      "horoscope": "今天，射手座，你的直覺能力和心靈感應能力異常增強。您可能會發現與周圍人的想法和情感聯繫起來更容易。明智的做法是仔細管理你的回答；除非您確定對方願意傾聽，否則不要分享您的見解。此外，你的創造力和想像力正在蓬勃發展，因此請抓住這個機會，充分發揮它們的潛力。",
+      "horoscope_en": "Today, Sagittarius, your intuitive powers and telepathic abilities are exceptionally heightened. You'll likely find it simpler to connect with the thoughts and emotions of those around you. It's wise to manage your responses carefully; refrain from sharing your insights unless you're certain the other person is open to hearing them. Additionally, your creativity and imagination are flourishing, so seize this opportunity to harness them to their fullest potential.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -158,17 +132,43 @@
       "lucky_time": "18:00–20:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "pisces": {
-      "date": "2026-08-08",
-      "horoscope": "今天，當誤解浮出水面時，你作為心理學家的技能可能會派上用場。雙魚座，你周圍的人可能沒有最清晰的心態，也可能對安慰的話反應不佳。相信你的直覺來駕馭並緩解緊張情緒。您可能會擔心財務問題，但您的創造力和財務頭腦將幫助您找到解決方案。今晚一定要玩得開心！",
-      "horoscope_en": "Today, your skills as a psychologist may come in handy as misunderstandings surface. Those around you might not be in the clearest mindset and may not react well to comforting words, Pisces. Trust your instincts to navigate and ease the tension. Financial concerns may be on your mind, but your creativity and financial savvy will help you find solutions. Make sure to enjoy yourself this evening!",
+    "capricorn": {
+      "date": "2026-08-09",
+      "horoscope": "今天，你可能會發現自己對周圍人的情緒非常敏感，這促使你以富有同情心的耳朵傾聽那些尋求安慰的人。雖然你務實的一面可能會促使你大聲說出來，但此刻優先考慮傾聽是至關重要的，摩羯座。期待你的努力順利展開，帶給你成就感。您甚至可能會發現自己在某個階段感動得流下了喜悅的眼淚。",
+      "horoscope_en": "Today, you may find yourself deeply attuned to the emotions of those around you, prompting you to offer a compassionate ear to those seeking solace. While your practical side may urge you to speak up, it's crucial to prioritize listening at this moment, Capricorn. Expect your endeavors to unfold seamlessly, bringing you a sense of fulfillment. You might even find yourself moved to tears of joy at some stage.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "象牙白",
-      "lucky_color_hex": "#EDEAE0",
-      "lucky_time": "06:00–08:00",
+      "lucky_color": "日落橙",
+      "lucky_color_hex": "#F4A261",
+      "lucky_time": "12:00–14:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "aquarius": {
+      "date": "2026-08-09",
+      "horoscope": "今天，您可能會完成一個具有挑戰性的項目，該項目在您的職業生涯中佔有重要地位。對你的承諾和努力的認可可能會讓你比平常更情緒激動。可能有必要有意識地管理你的情緒。水瓶座，你已經克服了巨大的障礙才達到了這一點，所以得到認可真是太好了。今晚好好慶祝一下吧——這是你應得的！",
+      "horoscope_en": "Today, you may wrap up a challenging project that holds significant weight in your professional life. The recognition of your commitment and effort might leave you feeling more emotionally stirred than usual. It could be necessary to consciously manage your emotions. You've overcome great obstacles to reach this point, Aquarius, so it's wonderful to receive acknowledgment. Treat yourself to a celebration this evening—you've earned it!",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "珊瑚橘",
+      "lucky_color_hex": "#FF7F50",
+      "lucky_time": "20:00–22:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "pisces": {
+      "date": "2026-08-09",
+      "horoscope": "親愛的雙魚座，你一直熱切期待的事件，例如婚禮或洗禮，可能會讓你流淚。鑑於您傾向於隱藏自己的情緒，您可能會發現最好獨處一段時間，直到情緒平息。這一天注定充滿歡樂，而你感受到的幸福可能看起來幾乎是超現實的。即使你不能親自到場，但那種快樂是真實的。花點時間放鬆一下，沉浸在這一切之中。",
+      "horoscope_en": "An event you've been eagerly anticipating, like a wedding or christening, may bring you to tears, dear Pisces. Given your tendency to keep your emotions under wraps, you might find it best to take some time alone until the wave of emotion subsides. This day is meant to be filled with joy, and the happiness you feel might seem almost surreal. Even if you can't be there in person, the joy is genuine. Take a moment to unwind and soak it all in.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "松石綠",
+      "lucky_color_hex": "#2E8B8B",
+      "lucky_time": "08:00–10:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     }
   }

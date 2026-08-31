@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:51:51.641Z",
+  "generated_at": "2026-08-31T00:10:27.019Z",
   "weekly_reference": [
     {
       "name": "唐綺陽占星幫（Facebook）",
@@ -11,79 +11,40 @@
     }
   ],
   "weekly_theme": {
-    "range": "2026/08/24–08/30",
+    "range": "2026/08/31–09/06",
     "summary": "太陽剛進入處女座不久，生活重心可能悄悄轉往處女座相關的主題與氣氛。"
   },
   "signs": {
     "aries": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Aries, you might find yourself channeling your inner warrior rather than your sensitive side. This shift could lead to some tension in your aspirations and desires. It's important to tread lightly and avoid being overly confrontational with those who genuinely want to support you. Remember, the risk lies in potentially hurting those who are nearest and dearest to you. Stay mindful.",
-      "horoscope_en": "Today, Aries, you might find yourself channeling your inner warrior rather than your sensitive side. This shift could lead to some tension in your aspirations and desires. It's important to tread lightly and avoid being overly confrontational with those who genuinely want to support you. Remember, the risk lies in potentially hurting those who are nearest and dearest to you. Stay mindful.",
+      "date": "2026-08-30",
+      "horoscope": "Aries, if your job is starting to weigh you down rather than uplift you, it might be time to reassess your career path. Your vibrant nature thrives on freedom and growth, so if you're feeling constrained, it’s a clear sign to seek out a new challenge. Luckily, your talents open up a world of possibilities. Take your time and make a thoughtful choice!",
+      "horoscope_en": "Aries, if your job is starting to weigh you down rather than uplift you, it might be time to reassess your career path. Your vibrant nature thrives on freedom and growth, so if you're feeling constrained, it’s a clear sign to seek out a new challenge. Luckily, your talents open up a world of possibilities. Take your time and make a thoughtful choice!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "湖水綠",
-      "lucky_color_hex": "#4FB8AF",
-      "lucky_time": "06:00–08:00",
+      "lucky_color": "焦糖棕",
+      "lucky_color_hex": "#A9714B",
+      "lucky_time": "10:00–12:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
     "taurus": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Taurus, you might notice that someone or something is operating in a way that contrasts sharply with your own approach. This feeling is intensified by a powerful drive for acknowledgment that’s stirring within you. There’s certainly a troublesome element in the mix that requires some attention. Focus on addressing the fundamental issues before diving into the specifics of the situation at hand.",
-      "horoscope_en": "Today, Taurus, you might notice that someone or something is operating in a way that contrasts sharply with your own approach. This feeling is intensified by a powerful drive for acknowledgment that’s stirring within you. There’s certainly a troublesome element in the mix that requires some attention. Focus on addressing the fundamental issues before diving into the specifics of the situation at hand.",
+      "date": "2026-08-30",
+      "horoscope": "Today, Taurus, you find yourself deeply connected to your surroundings and the individuals in your life. This heightened sensitivity may feel unfamiliar, leaving you uncertain about how to handle the flood of thoughts and impressions that seem to arise spontaneously. While this experience is different from your norm, embrace it without overthinking.",
+      "horoscope_en": "Today, Taurus, you find yourself deeply connected to your surroundings and the individuals in your life. This heightened sensitivity may feel unfamiliar, leaving you uncertain about how to handle the flood of thoughts and impressions that seem to arise spontaneously. While this experience is different from your norm, embrace it without overthinking.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "深海藍",
-      "lucky_color_hex": "#1B3A5C",
-      "lucky_time": "18:00–20:00",
+      "lucky_color": "霧霾藍",
+      "lucky_color_hex": "#7C93AE",
+      "lucky_time": "14:00–16:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
     "gemini": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Gemini, tune into your body and heed its signals—if it tells you to pause, listen. An intense energy is urging you to take decisive action, but remember to be mindful of those around you. Above all, prioritize your own well-being. Avoid fleeting pleasures that could jeopardize your health.",
-      "horoscope_en": "Today, Gemini, tune into your body and heed its signals—if it tells you to pause, listen. An intense energy is urging you to take decisive action, but remember to be mindful of those around you. Above all, prioritize your own well-being. Avoid fleeting pleasures that could jeopardize your health.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "松石綠",
-      "lucky_color_hex": "#2E8B8B",
-      "lucky_time": "08:00–10:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "cancer": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Cancer, your emotional state is likely to be quite positive. However, when it comes to making decisions, you might find yourself feeling a bit uncertain. Every choice appears appealing, and you may be hesitant to let any opportunity slip by. The ideal approach is to sample a bit of everything. There are plenty of enticing options available—why not explore them all to discover your favorite?",
-      "horoscope_en": "Today, Cancer, your emotional state is likely to be quite positive. However, when it comes to making decisions, you might find yourself feeling a bit uncertain. Every choice appears appealing, and you may be hesitant to let any opportunity slip by. The ideal approach is to sample a bit of everything. There are plenty of enticing options available—why not explore them all to discover your favorite?",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "薰衣草紫",
-      "lucky_color_hex": "#B497D6",
-      "lucky_time": "18:00–20:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "leo": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Leo, you may feel a sense of unease and a strong desire to kick off new ventures. The energy surrounding you is abundant, but it's essential to ensure that your motivations are pure. Avoid acting out of guilt, fear, or regret. Stay true to your best intentions, as this will lead to the most favorable outcomes.",
-      "horoscope_en": "Today, Leo, you may feel a sense of unease and a strong desire to kick off new ventures. The energy surrounding you is abundant, but it's essential to ensure that your motivations are pure. Avoid acting out of guilt, fear, or regret. Stay true to your best intentions, as this will lead to the most favorable outcomes.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "湖水綠",
-      "lucky_color_hex": "#4FB8AF",
-      "lucky_time": "06:00–08:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "virgo": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Virgo, you may find yourself more attuned to your feelings, yet navigating your next steps could prove challenging. There's a hint of tension in your surroundings that could stir your emotions, complicating your ability to assess your circumstances clearly. Take a moment to breathe and center yourself before committing to any significant choices.",
-      "horoscope_en": "Today, Virgo, you may find yourself more attuned to your feelings, yet navigating your next steps could prove challenging. There's a hint of tension in your surroundings that could stir your emotions, complicating your ability to assess your circumstances clearly. Take a moment to breathe and center yourself before committing to any significant choices.",
+      "date": "2026-08-30",
+      "horoscope": "Gemini, your inclination towards community service is strong today. This urge may lead you to offer your help to a local organization. Initially, you might feel a little out of place, but don’t worry—your inherent leadership skills will soon emerge. The team will quickly realize how invaluable you are. Your brilliance is on display once more. Great job!",
+      "horoscope_en": "Gemini, your inclination towards community service is strong today. This urge may lead you to offer your help to a local organization. Initially, you might feel a little out of place, but don’t worry—your inherent leadership skills will soon emerge. The team will quickly realize how invaluable you are. Your brilliance is on display once more. Great job!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -93,62 +54,62 @@
       "lucky_time": "20:00–22:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "libra": {
-      "date": "2026-08-29",
-      "horoscope": "Libra, while you have a clear path in mind, today might present some unexpected hurdles due to details you've missed. Pay attention to those in your circle and consider the impact of your choices on them. You may not have to alter your course entirely, but a few adjustments could be necessary to ensure harmony.",
-      "horoscope_en": "Libra, while you have a clear path in mind, today might present some unexpected hurdles due to details you've missed. Pay attention to those in your circle and consider the impact of your choices on them. You may not have to alter your course entirely, but a few adjustments could be necessary to ensure harmony.",
+    "cancer": {
+      "date": "2026-08-30",
+      "horoscope": "Today, Cancer, it's wise to look beyond the surface. The information coming your way may not be entirely trustworthy. Be cautious, as someone might be spreading rumors or fabricating stories just to spark conversation. It's best to steer clear of these discussions. With a busy schedule ahead, prioritize your responsibilities over socializing and focus on completing your tasks.",
+      "horoscope_en": "Today, Cancer, it's wise to look beyond the surface. The information coming your way may not be entirely trustworthy. Be cautious, as someone might be spreading rumors or fabricating stories just to spark conversation. It's best to steer clear of these discussions. With a busy schedule ahead, prioritize your responsibilities over socializing and focus on completing your tasks.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "丁香紫",
-      "lucky_color_hex": "#C8A2C8",
+      "lucky_color": "薄荷綠",
+      "lucky_color_hex": "#98D8C8",
+      "lucky_time": "14:00–16:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "leo": {
+      "date": "2026-08-30",
+      "horoscope": "Today might find you feeling a little unsettled, Leo. Your confidence could be wavering, and you might be craving fresh challenges. The mundane tasks ahead may not spark your creativity or imagination. Focus on navigating through this tough day as best as you can. Treat yourself with kindness—perhaps enjoy a delightful lunch or immerse yourself in some soothing classical music.",
+      "horoscope_en": "Today might find you feeling a little unsettled, Leo. Your confidence could be wavering, and you might be craving fresh challenges. The mundane tasks ahead may not spark your creativity or imagination. Focus on navigating through this tough day as best as you can. Treat yourself with kindness—perhaps enjoy a delightful lunch or immerse yourself in some soothing classical music.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "焦糖棕",
+      "lucky_color_hex": "#A9714B",
       "lucky_time": "10:00–12:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
+    "virgo": {
+      "date": "2026-08-30",
+      "horoscope": "You and your partner might find yourselves at odds over certain beliefs today. It appears that both of you hold strong views on essential life values, and they don’t quite align. Virgo, take the time to engage in open dialogue. You may discover that your perspectives are not as divergent as they initially appeared. This gap between you will soon begin to bridge. Stay patient.",
+      "horoscope_en": "You and your partner might find yourselves at odds over certain beliefs today. It appears that both of you hold strong views on essential life values, and they don’t quite align. Virgo, take the time to engage in open dialogue. You may discover that your perspectives are not as divergent as they initially appeared. This gap between you will soon begin to bridge. Stay patient.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "松石綠",
+      "lucky_color_hex": "#2E8B8B",
+      "lucky_time": "08:00–10:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "libra": {
+      "date": "2026-08-30",
+      "horoscope": "Today, Libra, your home may feel a bit off balance. Tensions could lead to trivial squabbles among family members. Consider organizing individual outings for your siblings, and suggest that your partner enjoy a meal out with friends if they can. It's a good day to allow everyone some breathing room. By tomorrow, the atmosphere should lighten, and everyone will be ready to gather around the table once more.",
+      "horoscope_en": "Today, Libra, your home may feel a bit off balance. Tensions could lead to trivial squabbles among family members. Consider organizing individual outings for your siblings, and suggest that your partner enjoy a meal out with friends if they can. It's a good day to allow everyone some breathing room. By tomorrow, the atmosphere should lighten, and everyone will be ready to gather around the table once more.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "霧霾藍",
+      "lucky_color_hex": "#7C93AE",
+      "lucky_time": "14:00–16:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
     "scorpio": {
-      "date": "2026-08-29",
-      "horoscope": "Today is likely to bring a positive vibe for you, Scorpio, but be prepared for a few irritations that might test your patience. It’s best to accept these minor annoyances with a smile, as there may be little you can do to change the circumstances. Focus on holding your ground and remember that your self-assurance shouldn't waver just because someone else disagrees with your approach.",
-      "horoscope_en": "Today is likely to bring a positive vibe for you, Scorpio, but be prepared for a few irritations that might test your patience. It’s best to accept these minor annoyances with a smile, as there may be little you can do to change the circumstances. Focus on holding your ground and remember that your self-assurance shouldn't waver just because someone else disagrees with your approach.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "日落橙",
-      "lucky_color_hex": "#F4A261",
-      "lucky_time": "12:00–14:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "sagittarius": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Sagittarius, your assertive energy is at an all-time high. While this can be beneficial for accomplishing tasks and pushing through projects, be mindful of how your actions may affect those around you. It's easy to unintentionally overshadow others, so practice empathy and patience. If someone else shines for a moment, try not to let it ruffle your feathers.",
-      "horoscope_en": "Today, Sagittarius, your assertive energy is at an all-time high. While this can be beneficial for accomplishing tasks and pushing through projects, be mindful of how your actions may affect those around you. It's easy to unintentionally overshadow others, so practice empathy and patience. If someone else shines for a moment, try not to let it ruffle your feathers.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "湖水綠",
-      "lucky_color_hex": "#4FB8AF",
-      "lucky_time": "06:00–08:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "capricorn": {
-      "date": "2026-08-29",
-      "horoscope": "Today, Capricorn, you may find yourself naturally inclined to involve everyone in your activities. You might be busy ensuring that everyone feels supported and valued. Your caring nature is shining through, so embrace this opportunity to share your warmth. Just remember to keep an eye on your own needs and avoid overextending yourself in the process.",
-      "horoscope_en": "Today, Capricorn, you may find yourself naturally inclined to involve everyone in your activities. You might be busy ensuring that everyone feels supported and valued. Your caring nature is shining through, so embrace this opportunity to share your warmth. Just remember to keep an eye on your own needs and avoid overextending yourself in the process.",
-      "horoscope_source": {
-        "name": "API Ninjas（英翻中）",
-        "url": "https://api-ninjas.com/api/horoscope"
-      },
-      "lucky_color": "奶茶色",
-      "lucky_color_hex": "#C9A66B",
-      "lucky_time": "16:00–18:00",
-      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
-    },
-    "aquarius": {
-      "date": "2026-08-29",
-      "horoscope": "Aquarius, your determination is at an all-time high today. When you set your sights on a goal, it's nearly impossible for anyone to deter you. While some may label you as unmotivated or seeking shortcuts, this time is different. You’re energized and eager to take action. The only potential obstacle could be the heightened feelings of someone close to you.",
-      "horoscope_en": "Aquarius, your determination is at an all-time high today. When you set your sights on a goal, it's nearly impossible for anyone to deter you. While some may label you as unmotivated or seeking shortcuts, this time is different. You’re energized and eager to take action. The only potential obstacle could be the heightened feelings of someone close to you.",
+      "date": "2026-08-30",
+      "horoscope": "Today may bring a wave of stress your way, Scorpio. With the added responsibilities you've embraced, your to-do list feels more daunting than ever. It might seem like the hours are slipping away, leaving you with unfinished tasks. Remember to channel your anxiety positively and avoid projecting it onto those around you. A little kindness could inspire others to lend a hand and help you wrap up your project!",
+      "horoscope_en": "Today may bring a wave of stress your way, Scorpio. With the added responsibilities you've embraced, your to-do list feels more daunting than ever. It might seem like the hours are slipping away, leaving you with unfinished tasks. Remember to channel your anxiety positively and avoid projecting it onto those around you. A little kindness could inspire others to lend a hand and help you wrap up your project!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -158,17 +119,56 @@
       "lucky_time": "16:00–18:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     },
-    "pisces": {
-      "date": "2026-08-29",
-      "horoscope": "Take a deep breath today, Pisces, and tread lightly before pointing fingers at anyone without having the complete picture. It's important to manage your emotions. Acting impulsively could lead to a loss of respect that might be hard to regain. Remember, today is unpredictable. If you have disagreements to resolve, aim to handle them discreetly.",
-      "horoscope_en": "Take a deep breath today, Pisces, and tread lightly before pointing fingers at anyone without having the complete picture. It's important to manage your emotions. Acting impulsively could lead to a loss of respect that might be hard to regain. Remember, today is unpredictable. If you have disagreements to resolve, aim to handle them discreetly.",
+    "sagittarius": {
+      "date": "2026-08-30",
+      "horoscope": "Sagittarius, you might be feeling a dip in your self-assurance today, leading you to question your talents. Don't let this bring you down. Remember, your abilities are truly remarkable. Take a step back and assess your circumstances with a clear mind to understand why your career isn't advancing as quickly as you'd like. Financial concerns may be weighing on you, but trust that things will ultimately fall into place.",
+      "horoscope_en": "Sagittarius, you might be feeling a dip in your self-assurance today, leading you to question your talents. Don't let this bring you down. Remember, your abilities are truly remarkable. Take a step back and assess your circumstances with a clear mind to understand why your career isn't advancing as quickly as you'd like. Financial concerns may be weighing on you, but trust that things will ultimately fall into place.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
       },
-      "lucky_color": "酒紅",
-      "lucky_color_hex": "#7B2D42",
+      "lucky_color": "焦糖棕",
+      "lucky_color_hex": "#A9714B",
+      "lucky_time": "10:00–12:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "capricorn": {
+      "date": "2026-08-30",
+      "horoscope": "Capricorn, today you might find yourself grappling with feelings of boredom and dissatisfaction regarding your current path. It seems like you're weighed down by obligations, leaving little room for your true passions. While there are other pursuits calling your name, time feels like a luxury you can't afford. This can be quite exasperating. Consider reassessing your priorities; with a little creativity in how you manage your time, you can carve out moments for what truly inspires you.",
+      "horoscope_en": "Capricorn, today you might find yourself grappling with feelings of boredom and dissatisfaction regarding your current path. It seems like you're weighed down by obligations, leaving little room for your true passions. While there are other pursuits calling your name, time feels like a luxury you can't afford. This can be quite exasperating. Consider reassessing your priorities; with a little creativity in how you manage your time, you can carve out moments for what truly inspires you.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "珊瑚橘",
+      "lucky_color_hex": "#FF7F50",
       "lucky_time": "20:00–22:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "aquarius": {
+      "date": "2026-08-30",
+      "horoscope": "Today, Aquarius, you might find your usual spark of optimism and energy dimmed. Your mind and body may feel heavy, as if you're battling a cold or simply feeling downcast. It’s a perfect day to consider taking a break for some self-care. Additionally, lingering issues from your past could resurface, urging you to confront them and find closure.",
+      "horoscope_en": "Today, Aquarius, you might find your usual spark of optimism and energy dimmed. Your mind and body may feel heavy, as if you're battling a cold or simply feeling downcast. It’s a perfect day to consider taking a break for some self-care. Additionally, lingering issues from your past could resurface, urging you to confront them and find closure.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "日落橙",
+      "lucky_color_hex": "#F4A261",
+      "lucky_time": "12:00–14:00",
+      "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
+    },
+    "pisces": {
+      "date": "2026-08-30",
+      "horoscope": "Today, Pisces, you might find yourself feeling a bit down about your finances. Maybe the promotion you were counting on didn’t materialize, or a work endeavor didn’t pan out as you had hoped. This is the perfect moment to tap into your creativity and devise a plan to generate the income you seek. Have faith in your skills and knowledge; a promising opportunity is just around the corner.",
+      "horoscope_en": "Today, Pisces, you might find yourself feeling a bit down about your finances. Maybe the promotion you were counting on didn’t materialize, or a work endeavor didn’t pan out as you had hoped. This is the perfect moment to tap into your creativity and devise a plan to generate the income you seek. Have faith in your skills and knowledge; a promising opportunity is just around the corner.",
+      "horoscope_source": {
+        "name": "API Ninjas（英翻中）",
+        "url": "https://api-ninjas.com/api/horoscope"
+      },
+      "lucky_color": "鵝黃",
+      "lucky_color_hex": "#F7E17B",
+      "lucky_time": "16:00–18:00",
       "lucky_disclaimer": "幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。"
     }
   }

@@ -69,11 +69,27 @@ function sleep(ms) {
 async function fetchHoroscope(sign) {
   const res = await fetch(`https://api.api-ninjas.com/v1/horoscope?zodiac=${sign}`, {
     headers: { 'X-Api-Key': API_KEY },
+    signal: AbortSignal.timeout(10000),
   });
   if (!res.ok) {
     throw new Error(`API Ninjas error for ${sign}: ${res.status} ${await res.text()}`);
   }
   return res.json();
+}
+
+// A single sign's API call failing shouldn't sink the other 11 — retry a
+// couple of times first, since most failures here are transient (rate
+// limit / timeout).
+async function fetchHoroscopeWithRetry(sign, retries = 2) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await fetchHoroscope(sign);
+    } catch (e) {
+      if (attempt >= retries) throw e;
+      console.warn(`Fetch failed for ${sign} (attempt ${attempt + 1}/${retries + 1}): ${e.message}. Retrying...`);
+      await sleep(1000 * (attempt + 1));
+    }
+  }
 }
 
 // MyMemory's free endpoint caps a single query at 500 characters, so long
@@ -96,20 +112,25 @@ function splitIntoChunks(text, maxLen) {
 }
 
 async function translateChunk(text) {
-  const url = new URL('https://api.mymemory.translated.net/get');
-  url.searchParams.set('q', text);
-  url.searchParams.set('langpair', 'en|zh-TW');
-  const res = await fetch(url);
-  if (!res.ok) {
-    console.warn(`MyMemory HTTP ${res.status} for chunk "${text.slice(0, 40)}..." — falling back to English for this chunk.`);
+  try {
+    const url = new URL('https://api.mymemory.translated.net/get');
+    url.searchParams.set('q', text);
+    url.searchParams.set('langpair', 'en|zh-TW');
+    const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    if (!res.ok) {
+      console.warn(`MyMemory HTTP ${res.status} for chunk "${text.slice(0, 40)}..." — falling back to English for this chunk.`);
+      return text;
+    }
+    const json = await res.json();
+    if (json.responseStatus && Number(json.responseStatus) !== 200) {
+      console.warn(`MyMemory API error ${json.responseStatus} (${json.responseDetails}) for chunk "${text.slice(0, 40)}..." — falling back to English for this chunk.`);
+      return text;
+    }
+    return json.responseData?.translatedText || text;
+  } catch (e) {
+    console.warn(`MyMemory request failed for chunk "${text.slice(0, 40)}...": ${e.message} — falling back to English for this chunk.`);
     return text;
   }
-  const json = await res.json();
-  if (json.responseStatus && Number(json.responseStatus) !== 200) {
-    console.warn(`MyMemory API error ${json.responseStatus} (${json.responseDetails}) for chunk "${text.slice(0, 40)}..." — falling back to English for this chunk.`);
-    return text;
-  }
-  return json.responseData?.translatedText || text;
 }
 
 async function translateToZhTw(text) {
@@ -201,6 +222,17 @@ const HOROSCOPE_SOURCE = { name: 'API Ninjas（英翻中）', url: 'https://api-
 const LUCKY_DISCLAIMER = '幸運色／幸運時間由本 App 依星座與日期自動生成，非真實命理來源，僅供參考娛樂。';
 
 async function main() {
+  const fs = await import('node:fs/promises');
+
+  // Loaded as a fallback for any sign whose API call keeps failing today —
+  // one bad sign shouldn't blank out the other 11 or skip the whole update.
+  let previous = { signs: {} };
+  try {
+    previous = JSON.parse(await fs.readFile('horoscope.json', 'utf-8'));
+  } catch (e) {
+    console.warn('No previous horoscope.json to use as fallback:', e.message);
+  }
+
   const todayIso = new Date().toISOString().slice(0, 10);
   const result = {
     generated_at: new Date().toISOString(),
@@ -211,25 +243,32 @@ async function main() {
 
   for (const sign of SIGNS) {
     console.log(`Fetching ${sign}...`);
-    const data = await fetchHoroscope(sign);
-    const horoscope_en = data.horoscope;
-    const horoscope = await translateToZhTw(horoscope_en);
-    const luckyColor = pickLuckyColor(sign, data.date);
-    result.signs[sign] = {
-      date: data.date,
-      horoscope,
-      horoscope_en,
-      horoscope_source: HOROSCOPE_SOURCE,
-      lucky_color: luckyColor.name,
-      lucky_color_hex: luckyColor.hex,
-      lucky_time: pickLuckyTime(sign, data.date),
-      lucky_disclaimer: LUCKY_DISCLAIMER,
-    };
+    try {
+      const data = await fetchHoroscopeWithRetry(sign);
+      const horoscope_en = data.horoscope;
+      const horoscope = await translateToZhTw(horoscope_en);
+      const luckyColor = pickLuckyColor(sign, data.date);
+      result.signs[sign] = {
+        date: data.date,
+        horoscope,
+        horoscope_en,
+        horoscope_source: HOROSCOPE_SOURCE,
+        lucky_color: luckyColor.name,
+        lucky_color_hex: luckyColor.hex,
+        lucky_time: pickLuckyTime(sign, data.date),
+        lucky_disclaimer: LUCKY_DISCLAIMER,
+      };
+    } catch (e) {
+      console.warn(`Giving up on ${sign} for today: ${e.message}`);
+      if (previous.signs?.[sign]) {
+        console.warn(`Falling back to previous data for ${sign}.`);
+        result.signs[sign] = previous.signs[sign];
+      }
+    }
     // Be polite to both free services between requests.
     await sleep(500);
   }
 
-  const fs = await import('node:fs/promises');
   await fs.writeFile('horoscope.json', JSON.stringify(result, null, 2) + '\n', 'utf-8');
   console.log('Wrote horoscope.json');
 }

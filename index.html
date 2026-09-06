@@ -439,6 +439,12 @@ function selectSign(key){
   renderHoroscope(body, data);
 }
 
+function escapeHtml(str){
+  return String(str ?? '').replace(/[&<>"']/g, (c) => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;',
+  })[c]);
+}
+
 function hexToRgba(hex, alpha){
   const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec((hex || '').trim());
   if (!m) return null;
@@ -456,9 +462,9 @@ function renderHoroscope(body, data){
        </div>`
     : '';
   const origToggle = data.horoscope_en
-    ? `<div class="orig-toggle" id="origToggle">查看英文原文</div><div class="orig-text hidden" id="origText">${data.horoscope_en}</div>`
+    ? `<div class="orig-toggle" id="origToggle">查看英文原文</div><div class="orig-text hidden" id="origText">${escapeHtml(data.horoscope_en)}</div>`
     : '';
-  body.innerHTML = `<div class="horoscope-text italic-lead">${data.horoscope}</div>${origToggle}${sourcesHtml}`;
+  body.innerHTML = `<div class="horoscope-text italic-lead">${escapeHtml(data.horoscope)}</div>${origToggle}${sourcesHtml}`;
 
   if (data.horoscope_en) {
     document.getElementById('origToggle').addEventListener('click', () => {

@@ -76,16 +76,53 @@ async function fetchHoroscope(sign) {
   return res.json();
 }
 
+// MyMemory's free endpoint caps a single query at 500 characters, so long
+// horoscope paragraphs are split on sentence boundaries into chunks under
+// that limit, translated one at a time, then rejoined.
+function splitIntoChunks(text, maxLen) {
+  const sentences = text.match(/[^.!?]+[.!?]+(\s+|$)|[^.!?]+$/g) || [text];
+  const chunks = [];
+  let current = '';
+  for (const s of sentences) {
+    if (current && current.length + s.length > maxLen) {
+      chunks.push(current.trim());
+      current = s;
+    } else {
+      current += s;
+    }
+  }
+  if (current.trim()) chunks.push(current.trim());
+  return chunks;
+}
+
+async function translateChunk(text) {
+  const url = new URL('https://api.mymemory.translated.net/get');
+  url.searchParams.set('q', text);
+  url.searchParams.set('langpair', 'en|zh-TW');
+  const res = await fetch(url);
+  if (!res.ok) {
+    console.warn(`MyMemory HTTP ${res.status} for chunk "${text.slice(0, 40)}..." — falling back to English for this chunk.`);
+    return text;
+  }
+  const json = await res.json();
+  if (json.responseStatus && Number(json.responseStatus) !== 200) {
+    console.warn(`MyMemory API error ${json.responseStatus} (${json.responseDetails}) for chunk "${text.slice(0, 40)}..." — falling back to English for this chunk.`);
+    return text;
+  }
+  return json.responseData?.translatedText || text;
+}
+
 async function translateToZhTw(text) {
   try {
-    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=${encodeURIComponent(text)}`;
-    const res = await fetch(url);
-    if (!res.ok) return text;
-    const json = await res.json();
-    const translated = (json[0] || []).map((seg) => seg[0]).join('');
-    return translated || text;
+    const chunks = splitIntoChunks(text, 480);
+    const translated = [];
+    for (const chunk of chunks) {
+      translated.push(await translateChunk(chunk));
+      await sleep(300);
+    }
+    return translated.join(' ');
   } catch (e) {
-    console.warn('Translation failed, falling back to English:', e.message);
+    console.warn('Translation failed entirely, falling back to English:', e.message);
     return text;
   }
 }

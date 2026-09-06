@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:08:41.517Z",
+  "generated_at": "2026-09-06T11:05:49.282Z",
   "weekly_reference": [
     {
       "name": "唐綺陽占星幫（Facebook）",
@@ -17,8 +17,8 @@
   "signs": {
     "aries": {
       "date": "2026-09-06",
-      "horoscope": "白羊座，你可能會發現自己正在與朋友進行有趣的對話，可能圍繞著重大的全球事件或一些關於熟人的誘人花絮。雖然享受這些討論的樂趣是很棒的，但請記得用挑剔的耳朵接近它們，因為並非所有分享的內容都可能根植於現實-其中一些可能只是某人生動想像的結果。 此外，你可以在附近短暫出遊，了解你所在街區即將到來的輪班。為驚喜做好準備！",
-      "horoscope_en": "Aries, you might find yourself in the midst of intriguing conversations with friends, possibly revolving around significant global events or some tantalizing tidbits about acquaintances. While it's great to have fun with these discussions, remember to approach them with a discerning ear, as not everything shared may be grounded in reality—some of it could simply be the result of someone's vivid imagination. Additionally, brief outings nearby could lead to insights about forthcoming shifts in your neighborhood. Be prepared for surprises!",
+      "horoscope": "今天，你的思緒可能正以閃電般的速度奔馳。你可能會發現自己充斥著大量的新想法和見解，這可能會導致一點精神上的不知所措。如果可以的話，請將所有內容記下來；您會希望稍後能有參考資料。之後，考慮散步或進行某種形式的鍛煉。這種精神活動的激增可能會產生您想要釋放的額外神經能量。",
+      "horoscope_en": "Today, your thoughts are likely racing at lightning speed. You may find yourself flooded with a torrent of new ideas and insights, which could lead to a bit of mental overwhelm. If possible, jot everything down; you'll appreciate having a reference for later. Afterward, consider taking a stroll or engaging in some form of exercise. This surge of mental activity might generate extra nervous energy that you'll want to release.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -30,8 +30,8 @@
     },
     "taurus": {
       "date": "2026-09-06",
-      "horoscope": "今天，金牛座，你可能會發現自己沉浸在專業認可的光芒中，因為星星表明你的創造力正在飆升，可以顯著提高你的工作表現。您甚至有可能看到晉升或加薪。然而，記得要抵制誘惑，不要在上司面前掩飾你面臨的任何挑戰。誠實是最好的政策，保持透明將在未來為您服務。",
-      "horoscope_en": "Today, Taurus, you could find yourself basking in the glow of professional recognition, as the stars suggest your creativity is soaring and can significantly enhance your work performance. There's a chance you might even see a promotion or a salary boost on the horizon. However, remember to resist the temptation to gloss over any challenges you face in front of your superiors. Honesty is the best policy, and being transparent will serve you well in the future.",
+      "horoscope": "今天，你可能會為親人或親愛的朋友似乎情緒低落的情緒狀態而感到困擾。雖然你可能不願意聯絡他們並詢問他們的福祉，擔心你可能會超越，但這麼做很重要。情況可能不會像看起來那麼糟糕，我們會重視你的支持。今晚晚些時候，優先安排一些當之無愧的放鬆；你最近付出了很多努力。",
+      "horoscope_en": "Today, you might find yourself troubled by the emotional state of a loved one or dear friend who appears to be downcast. While you may feel reluctant to reach out and inquire about their well-being, fearing you might overstep, it's important to do so. The situation may not be as dire as it appears, and your support will be valued. Later this evening, prioritize some well-deserved relaxation; you've been putting in a lot of effort lately.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -43,8 +43,8 @@
     },
     "gemini": {
       "date": "2026-09-06",
-      "horoscope": "你的思想在今天比賽，充滿了創意和原創思想的旋風。他們可能會如此迅速地向你襲來，以至於覺得不可能立即將他們帶入生活。請務必將它們記錄下來，以供日後參考。雖然你可能還沒有機會深入研究它們，但稍後會有時間。 如果可以的話，可以考慮參加講座或研討會、報名參加線上課程，或計劃與朋友見面進行小組活動，豐富你的思想。",
-      "horoscope_en": "Your thoughts are racing today, brimming with a whirlwind of creative and original ideas. They may come at you so quickly that it feels impossible to bring them to life right away. Be sure to jot them down for future reference. While you might not have the opportunity to dive into them just yet, there will be a time for that later. Consider enriching your mind by attending a lecture or seminar, enrolling in an online course, or planning to meet up with friends for a small group activity, if you can.",
+      "horoscope": "親戚可能感到沮喪，可能還沒準備好討論他們的感受。他們的憂鬱情緒可能會影響到整個家庭，所以明智的做法是溫柔地詢問是什麼困擾著他們。請記住，情緒可能具有傳染性！但是，請避免推動他們敞開心扉，因為這可能會適得其反。此外，你可能會接到幾通電話，打擾你的工作流程，這可能會讓你感到相當沮喪。請隨時將這些電話轉至語音信箱。",
+      "horoscope_en": "A relative might be feeling down and may not be ready to discuss their feelings. Their somber mood could affect the entire household, so it’s wise to gently inquire about what’s bothering them. Remember, emotions can be infectious! However, avoid pushing them to open up, as that could backfire. Additionally, you may experience several phone calls that disrupt your workflow, which could be quite frustrating. Don’t hesitate to let those calls go to voicemail.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -56,8 +56,8 @@
     },
     "cancer": {
       "date": "2026-09-06",
-      "horoscope": "巨蟹座，今天你可能會經歷不尋常的夢境和驚人的預感。你的直覺和通靈能力得到提升，使你可以在某人向你伸出援手之前想到他。但是，要小心不要過度焦慮或偏執。如果你收到的任何訊息令人不安，請花點時間核實事實。你可能會發現現實情況比你最初想像的要積極得多。",
-      "horoscope_en": "Today, Cancer, you might experience unusual dreams and striking premonitions. Your intuitive and psychic abilities are heightened, making it possible for you to think of someone just before they reach out to you. However, be cautious of becoming overly anxious or paranoid. If any messages you receive feel unsettling, take a moment to verify the facts. You may discover that the reality is much more positive than you initially believed.",
+      "horoscope": "如今，請小心謹慎，因為虛假資訊可能會在您的家庭或社區內流傳，導致不必要的緊張局勢。作為巨蟹座，在相信任何八卦或謠言之前先進行驗證是明智的；他們可能只是無所事事。此外，由於你可能會遇到延誤或意外問題，因此這不是旅行或計劃任何旅程的理想時機。",
+      "horoscope_en": "Today, be cautious as false information may circulate within your family or community, leading to unnecessary tensions. As a Cancer, it's wise to verify any gossip or rumors before believing them; they might just be much ado about nothing. Additionally, it's not the ideal moment for travel or planning any trips, as you may encounter delays or unexpected issues.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -69,8 +69,8 @@
     },
     "leo": {
       "date": "2026-09-06",
-      "horoscope": "今天，你可能會發現自己處於開朗和善於交際的心情，很容易與周圍的人建立聯繫。預計會被邀請參加有趣的聚會或社交活動，並有機會結識新朋友。享受這些時刻！但是，請記住增加維生素C的攝入量，因為有一些感冒和細菌在循環，您可能更容易感染某些東西。",
-      "horoscope_en": "Today, you may find yourself in a cheerful and sociable mood, connecting easily with those around you. Expect to be invited to gatherings or social events that promise fun and the chance to meet new people. Enjoy these moments! However, remember to boost your vitamin C intake, as there are some colds and germs circulating, and you might be more vulnerable to catching something.",
+      "horoscope": "請注意，在您的信託中擁有既得利益的人可能會提供誤導性的財務資訊。這可能是銀行家、債權人、投資顧問，甚至是親近的人，如朋友或家人。Leo ，重要的是要深入挖掘並為自己核實事實，而不是從表面上看待他們的話。在做出任何財務決定之前，請花點時間徹底評估情況。",
+      "horoscope_en": "Beware of misleading financial information that may be presented by someone with a vested interest in your trust. This could be a banker, creditor, investment advisor, or even someone close to you like a friend or family member. Leo, it's essential to dig deeper and verify the facts for yourself rather than taking their word at face value. Take your time to assess the situation thoroughly before making any financial decisions.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -82,8 +82,8 @@
     },
     "virgo": {
       "date": "2026-09-06",
-      "horoscope": "今天，處女座，你與同事的互動很可能是積極的，這對你的職業生涯大有裨益。但是，請記住要超越表面；並非所有事情都如其所見。可能有人與你懷有未解決的問題，導致他們不太可靠。由於您的免疫系統目前很脆弱，您可能容易患病，因此請謹慎與任何看似不適的人建立緊密聯繫。",
-      "horoscope_en": "Today, Virgo, your interactions with colleagues are likely to be positive, which can greatly benefit your professional life. However, remember to look beyond the surface; not everything is as it appears. There may be someone harboring unresolved issues with you, making them less than reliable. Be cautious about forming close bonds with anyone who appears to be unwell, as your immune system is currently vulnerable, and you might be susceptible to illness.",
+      "horoscope": "你內心圈子中的某個人可能並不完全樂於助人。他們可能會隱瞞真相，或隱瞞一些東西來避開你的感受。聽聽你的直覺，處女座。如果你聽到一些重要的事情，感覺有點不對勁，請先花點時間調查，然後再按面值計算。這不是惡意的謊言，而是錯誤的保護嘗試。然而，試圖保護某人免受現實影響偶爾會導致意想不到的後果！",
+      "horoscope_en": "A person in your inner circle might not be completely forthcoming. They could be withholding the truth or concealing something to spare your feelings. Listen to your intuition, Virgo. If you hear something significant that feels off, take the time to investigate before taking it at face value. This isn't a malicious lie—it's more of a misguided attempt to protect. However, trying to shield someone from reality can occasionally lead to unintended consequences!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -95,8 +95,8 @@
     },
     "libra": {
       "date": "2026-09-06",
-      "horoscope": "今天，天秤座，你可能會偶然發現有趣的新信息，激發你對新追求的興趣。這項啟示可能會把你的思想帶到遙遠的領域和時代。此外，您可能會發現自己與受過良好教育的新熟人（可能來自海外）接觸，他們可能會分享迷人的故事！無論發生什麼事，都要期待你的好奇心被激發，你的智力被激發。",
-      "horoscope_en": "Today, Libra, you might stumble upon intriguing new information that sparks your interest in a fresh pursuit. This revelation could transport your thoughts to distant realms and eras. Additionally, you may find yourself engaging with new acquaintances who are well-educated, possibly from overseas, and they are likely to share captivating tales! No matter what unfolds, expect your curiosity to be piqued and your intellect to be invigorated.",
+      "horoscope": "今天，天秤座，你可能會發現自己有點筋疲力盡，缺乏動力，讓舒適的牀看起來比冒險更具吸引力。這與你平常充滿活力的自我完全不同，雖然推進和社交的衝動可能很強烈，但要抵制這種誘惑。優先安排一些當之無愧的休息時間，以便在出門時充電並準備好閃耀光芒。",
+      "horoscope_en": "Today, Libra, you might find yourself feeling a bit drained and lacking motivation, making the comfort of your bed seem more appealing than venturing out. This is quite unlike your usual vibrant self, and while the urge to push through and socialize may be strong, resist that temptation. Prioritize some well-deserved rest so that when the time comes to step out, you'll be recharged and ready to shine.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -108,8 +108,8 @@
     },
     "scorpio": {
       "date": "2026-09-06",
-      "horoscope": "今晚，天蠍座，你可能會經歷生動的夢境，激發你的創造力。這些願景可以激勵您改善生活空間或進行藝術創作。隨著能量的激增，您可能會覺得不得不全神貫注地進行專案。但是，請記得休息並自行調整步伐；過度用力可能會導致疲憊甚至生病。",
-      "horoscope_en": "Tonight, Scorpio, you may experience vivid dreams that spark your creativity. These visions could inspire you to enhance your living space or embark on artistic endeavors. With a surge of energy, you might feel compelled to dive headfirst into your projects. However, remember to take breaks and pace yourself; overexertion could lead to exhaustion or even illness.",
+      "horoscope": "你可能會注意到，浪漫的伴侶或親密的朋友最近似乎很疏遠，讓你對他們是否有興趣維持聯繫感到焦慮和不確定。重要的是不要讓這些不安全感壓倒你。請記住，這個人正面臨著自己的挑戰，很快就會尋求像你一樣的關懷和理解！",
+      "horoscope_en": "You might notice that a romantic partner or a dear friend appears to be distant lately, leaving you feeling anxious and uncertain about their interest in maintaining your connection. It's important not to let these feelings of insecurity overwhelm you. Remember, this individual is facing their own challenges and will soon seek out a caring and understanding presence—someone like you!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -121,8 +121,8 @@
     },
     "sagittarius": {
       "date": "2026-09-06",
-      "horoscope": "今天，射手座，你可能會收到來自商業或浪漫伴侶的愉快訊息。這可能會激起你們倆的興奮情緒，增強你們的聯繫或合作。與您的伴侶保持透明非常重要；分享您的擔憂，而不是隱藏它們。開放溝通是關鍵。請放心，一切都會好起來的！",
-      "horoscope_en": "Today, Sagittarius, you might receive a delightful message from a business or romantic partner. This could spark a wave of excitement for both of you, enhancing your connection or collaboration. It's important to be transparent with your partner; share your worries instead of hiding them. Open communication is key. Rest assured, everything will turn out just fine!",
+      "horoscope": "您的職業抱負可能會因耳語、猜測和工作場所政治的動態而脫軌。有些別有用心的人似乎對自己的行為如何影響他人漠不關心。如果你發現這些惡作劇，射手座，在它們升級之前採取積極的措施來解決它們。這將有助於保護您和同事的職業生涯。",
+      "horoscope_en": "Your professional aspirations might be derailed by whispers, speculation, and the dynamics of workplace politics. There’s someone with ulterior motives who seems indifferent to how their actions impact others. If you catch wind of these shenanigans, Sagittarius, take proactive steps to address them before they escalate. This will help safeguard both your career and that of your coworkers.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -134,8 +134,8 @@
     },
     "capricorn": {
       "date": "2026-09-06",
-      "horoscope": "摩羯座今天提供了一個討論加薪或探索其他收入途徑的絕佳機會。你的老闆可能會慷慨解囊，讓他們更願意接受你的請求。這也是研究潛在投資的有利時機，但目前還沒有做出任何財務承諾。請務必謹慎，因為您遇到的資訊可能不完全準確。在做出任何最終決定之前，請給它大約一週的時間。",
-      "horoscope_en": "Capricorn, today presents a prime opportunity to discuss a salary increase or explore alternative income avenues. Your bosses are likely to be in a generous frame of mind, making them more open to your requests. It's also a favorable moment to research potential investments, but hold off on making any financial commitments just yet. Be cautious, as the information you come across may not be entirely accurate. Give it about a week before making any final decisions.",
+      "horoscope": "摩羯座，你可能一直夢想著一段旅程或回到學校很長一段時間。然而，意想不到的訊息或電話可能會影響你的計劃，讓你感到有點沮喪。花點時間仔細評估情況；你可能會發現挫折並不像看起來那麼嚴重。只要稍加努力，您就可以在不放棄願望的情況下應對這一挑戰。",
+      "horoscope_en": "You might have been dreaming about a journey or heading back to school for quite a while, Capricorn. However, an unexpected message or call could throw a wrench in your plans, leaving you feeling a bit disheartened. Take a moment to assess the situation closely; you may discover that the setback isn't as significant as it seems. With a little effort, you can navigate this challenge without giving up on your aspirations.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -147,8 +147,8 @@
     },
     "aquarius": {
       "date": "2026-09-06",
-      "horoscope": "水瓶座，你的浪漫和感性的一面今天閃耀著光芒，吸引了周圍人的注意，包括陌生的面孔。隨著你的熱情達到巔峯，這是與你關心的人組織一個特別夜晚的絕佳機會。此外，您的創意能量正在流動，是讓自己沉浸在藝術努力中的理想時機。擁抱它！",
-      "horoscope_en": "Aquarius, your romantic and sensual side is shining brightly today, attracting the attention of those around you, including unfamiliar faces. With your passion at its peak, it's the perfect opportunity to organize a special evening with someone you care about. Additionally, your creative energy is flowing, making it an ideal time to immerse yourself in an artistic endeavor. Embrace it!",
+      "horoscope": "有關你財務狀況的意外令人不安的消息可能會破壞你平時平靜的態度，水瓶座。在得出結論之前，請花點時間徹底調查情況。可能是技術故障或與他人的詳細資料混淆。請務必及時解決問題。這可能會讓人感到沮喪，但你會發現現實情況並不像最初出現的那麼可怕，這會讓你感到安慰。",
+      "horoscope_en": "Unexpectedly troubling news regarding your finances might disrupt your typically calm demeanor, Aquarius. Before you jump to conclusions, take a moment to investigate the situation thoroughly. It’s possible that a technical glitch or a mix-up with someone else's details is at play. Make sure to address the issue promptly. It may feel frustrating, but you'll find comfort in discovering that the reality is not as dire as it first appeared.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -160,8 +160,8 @@
     },
     "pisces": {
       "date": "2026-09-06",
-      "horoscope": "雙魚座，你可能會有一種強烈的衝動，想要與浪漫的伴侶一起擺脫日常生活的喧囂。今天是這種冒險的完美日子！如果度假不可行，不妨考慮與心愛的人一起在家中營造溫馨的氛圍。此外，不要忽視你的其他感官慾望：給自己一些美味的食物、精緻的飲料，或舒適的豪華座椅或柔軟的牀。 擁抱這些感覺；每個人都應該時不時地得到一點呵護！",
-      "horoscope_en": "Pisces, you may feel an intense urge to break away from the hustle and bustle of everyday life with a romantic partner. Today is perfect for such an adventure! If a getaway isn't feasible, consider creating a cozy atmosphere at home with your beloved. Additionally, don't overlook your other sensual desires—treat yourself to some delectable food, a fine drink, or the comfort of plush seating or a soft bed. Embrace these feelings; everyone deserves a little pampering from time to time!",
+      "horoscope": "今天可能會出現一種具有挑戰性的情況。你的本能可能是保護你所愛的人遠離殘酷的現實。你可能會傾向於歪曲事實，或完全回避這個問題。抵制這種衝動，雙魚座。雖然你保護親人的意圖是值得稱讚的，但這可能會導致併發症。請記住，你不能保護每個人免受每個困難。大多數人喜歡被告知真相。",
+      "horoscope_en": "A challenging scenario may present itself today. Your instinct might be to shield your loved ones from the harsh reality. You may feel inclined to bend the truth or simply sidestep the issue altogether. Resist this urge, Pisces. While your intention to safeguard those dear to you is commendable, it could lead to complications. Remember, you can't shield everyone from every hardship. Most individuals appreciate being informed about the truth.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"

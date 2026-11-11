@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T03:56:49.577Z",
+  "generated_at": "2026-11-11T01:41:09.846Z",
   "weekly_reference": [
     {
       "name": "唐綺陽占星幫（Facebook）",
@@ -17,8 +17,8 @@
   "signs": {
     "aries": {
       "date": "2026-11-10",
-      "horoscope": "白羊座，今天可能會覺得有點局限。當你的野心飆升時，你會發現自己正在處理日常生活中出現的小問題。具有諷刺意味的是，這就在你的小巷裡！擁抱更基礎的觀點，並參與生活的實際方面，最終將使您受益。",
-      "horoscope_en": "Today may feel a bit limiting, Aries. While your ambitions soar high, you'll find yourself dealing with the minor issues that pop up in daily life. Ironically, this is right up your alley! Embracing a more grounded perspective and engaging with the practical aspects of life will ultimately benefit you.",
+      "horoscope": "白羊座，你充滿活力的精神今天閃耀著光芒！在處理日常活動時，你可能會充滿活力。你冒險的一面正在燃燒，需要很多時間來抑制你的精神。然而，目前內心的問題可能會帶來一些挑戰。看來愛情和浪漫可能不會如你所願地展開。請記住，耐心是關鍵。",
+      "horoscope_en": "Aries, your vibrant spirit shines brightly today! You’re likely to be brimming with energy as you tackle your daily activities. Your adventurous side is on fire, and it takes a lot to dampen your spirits. However, matters of the heart may present some challenges at the moment. It seems that love and romance might not be unfolding as you wish. Remember, patience is key.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -30,8 +30,8 @@
     },
     "taurus": {
       "date": "2026-11-10",
-      "horoscope": "雖然人們常說金牛座的個體擁有強健的體格，但今天卻提醒您要優先考慮自己的健康。這與迫在眉睫的健康問題無關；相反，天體排列顯示出未來的繁忙時期。花一點時間來滋養你的身體-你最寶貴的資產-將是一個明智的選擇。",
-      "horoscope_en": "While it's often said that Taurus individuals possess robust physiques, today serves as a reminder to prioritize your well-being. It's not about impending health issues; rather, the celestial alignments indicate a bustling period ahead. Taking a moment to nurture your body—your most valuable asset—would be a wise choice.",
+      "horoscope": "金牛座，你今天可能會發現自己與親愛的朋友或伴侶建立了更牢固的聯繫。浪漫的氛圍越來越強烈，你逐漸減少了預訂，讓自己完全擁抱這一刻。當您走出殼層，讓俏皮的一面閃耀出來時，您會發現喜悅和興奮。撇開任何沉重的話題，優先考慮享受和社交。",
+      "horoscope_en": "Taurus, you might find yourself forging a stronger bond with a dear friend or partner today. Romantic vibes are intensifying, and you're gradually shedding your reservations, allowing yourself to fully embrace the moment. You'll discover the joy and thrill that arise when you step out of your shell and let your playful side shine. Set aside any heavy topics and prioritize enjoyment and socializing.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -43,8 +43,8 @@
     },
     "gemini": {
       "date": "2026-11-10",
-      "horoscope": "雙子座，今天可能會給你帶來一些挑戰。現實似乎準備讓你措手不及。您可能會發現自己的觀點有點不切實際。如果你仍然堅持一些年輕或無憂無慮的傾向，今天可能會感到特別強硬。不過沒必要驚慌失措。如果你覺得自己陷入了困境，請抵制衝動反應的衝動。相反，請深呼吸，並以平靜的心態擁抱這種情況。",
-      "horoscope_en": "Today could present some challenges for you, Gemini. It seems like reality is poised to catch you off guard. You might find that your perspective feels a bit unrealistic. If you're still holding onto some youthful or carefree tendencies, today could feel particularly tough. There's no need for alarm, though. If you sense that you're feeling cornered, resist the urge to react impulsively. Instead, take a deep breath and embrace the situation with a sense of calm.",
+      "horoscope": "雙子座，有堅定的信念和獨立感通常是一個積極的特質。然而，在某些時刻，這種意志堅強的天性可能會將您想與之聯繫的人推開。在你的浪漫生活中，你可能會發現自己正在努力應對頑固和敏感的混合。看來你可能傾向於邏輯，而你的伴侶正在更深入地了解他們的感受。",
+      "horoscope_en": "Gemini, having firm beliefs and a sense of independence is usually a positive trait. However, there are moments when this strong-willed nature might push away those you wish to connect with. In your romantic life, you may find yourself grappling with a blend of stubbornness and sensitivity. It seems you might be leaning towards logic, while your partner is navigating their feelings more deeply.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -56,8 +56,8 @@
     },
     "cancer": {
       "date": "2026-11-10",
-      "horoscope": "今天對你來說是一個寧靜的日子，巨蟹座。內心的動盪已經平息，讓寧靜取而代之。你更能適應日常生活的節奏，注意到你通常會忽略的細節，例如天氣、周圍人的情緒或令人愉快的小巧合。感覺就像在柔和的雲層上滑行一天。希望你能帶著強烈的信心！",
-      "horoscope_en": "Today promises to be a serene one for you, Cancer. The inner turmoil has subsided, allowing tranquility to take its place. You’re more attuned to the everyday rhythms of life, noticing details you might usually overlook, such as the weather, the moods of those around you, or delightful little serendipities. It feels as though you’re gliding through the day on a soft cloud. Expect to carry a strong sense of confidence with you!",
+      "horoscope": "巨蟹座，今晚將為你帶來充滿感官和激情的時刻。期待有趣、興奮、浪漫和熱愛成為焦點，特別是因為你有能力把夜晚引向這個方向。堅定不移，不要讓其他人控制你的旅程。你很清楚自己的慾望，所以不要假裝不瞭解。愛就在眼前，準備好抓住它！",
+      "horoscope_en": "Tonight promises to be filled with sensual and passionate moments for you, Cancer. Expect fun, excitement, romance, and love to take center stage, especially since you have the power to steer the evening in that direction. Stand firm and don’t allow anyone else to control your journey. You’re aware of your desires, so don’t pretend otherwise. Love is on the horizon—be ready to seize it!",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -69,8 +69,8 @@
     },
     "leo": {
       "date": "2026-11-10",
-      "horoscope": "現在是時候振作起來了。你可能會感到分散，但將你的能量引導到對你來說真正重要的事情上是至關重要的。提醒自己，完成這項任務後，你會感到多麼自豪。堅持下去，抵制偏離正軌的衝動。保持注意力集中！",
-      "horoscope_en": "Now is the moment to pull yourself together. You might feel scattered, but it's essential to direct your energies toward something that truly matters to you. Remind yourself of the pride you'll feel once you accomplish this task. Stay the course and resist the urge to veer off track. Keep your focus sharp!",
+      "horoscope": "看來你的浪漫生活已經暫停了，獅子座。然而，這並不意味著你應該停止享受自己。今天充滿了歡笑和喜悅的機會，只要你不沉浸在愛情生活的緩慢節奏中。擁抱樂趣，同時以悠閒的步調做事。盡情享受每個體驗，並抵制急於發展下一步的衝動。",
+      "horoscope_en": "It might seem like your romantic life has hit a pause button, Leo. However, this doesn’t mean you should stop enjoying yourself. Today is filled with opportunities for laughter and joy, as long as you don’t dwell on the slower rhythm of your love life. Embrace the fun while taking things at a leisurely pace. Relish each experience and resist the urge to hurry to what’s next.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -82,8 +82,8 @@
     },
     "virgo": {
       "date": "2026-11-10",
-      "horoscope": "處女座，今天是反思你對財務和物資的依賴的絕佳機會。您是否考慮過您的寶貴時間有多少被金錢及其收購的想法所消耗？您是否明智地管理您的財務？您是否遵守預算，或者甚至有預算？這些是至關重要的查詢，今天邀請您瞭解詳情。",
-      "horoscope_en": "Virgo, today is a perfect opportunity to reflect on your reliance on finances and material goods. Have you considered how much of your valuable time is consumed by thoughts of money and its acquisition? Are you managing your finances wisely? Do you adhere to a budget, or perhaps even have one in place? These are crucial inquiries, and today invites you to seek clarity on them.",
+      "horoscope": "處女座，宇宙在愛情方面為你排列得很好。期待你的浪漫生活有正面的發展。請務必慷慨地向伴侶表達你的感情，因為他們的自尊心可能會得到提升。只要小心不要過度放縱他們，因為這可能會導致一種權利感，使你自己的慾望和需求蒙上陰影。",
+      "horoscope_en": "The cosmos are aligning beautifully for you in matters of love, Virgo. Expect positive developments in your romantic life. Make sure to express your affection generously to your partner, as their self-esteem could use a boost. Just be cautious not to overindulge them, as this could lead to a sense of entitlement that overshadows your own desires and needs.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -95,8 +95,8 @@
     },
     "libra": {
       "date": "2026-11-10",
-      "horoscope": "最近，天秤座，事情可能對你來說有點太激烈了，但時不時地，一點嚴肅的態度可能是有益的。雖然你俏皮的天性經常吸引你沉迷於樂趣，但它偶爾會分散你對任務的注意力。立即使用，為您的日常生活帶來一些秩序，讓您在責任與當之無愧的享受之間取得平衡。",
-      "horoscope_en": "Lately, things may have felt a bit too intense for your liking, Libra, but a dose of seriousness can be beneficial now and then. While your playful nature often beckons you to indulge in fun, it can occasionally distract you from your tasks. Use today to bring some order to your daily routine, allowing you to balance your responsibilities with some well-deserved enjoyment.",
+      "horoscope": "天秤座，你溫柔而充滿激情的天性今天走到了最前沿。就好像你的浪漫精髓閃耀著光芒，讓所有人都能看到。像表演者一樣擁抱這一刻，享受每一秒！宇宙能量正在對齊，以幫助你獲得更清晰的愛情觀，讓你能夠以大膽和天賦來處理它。不要猶豫，更公開地表達您的需求和願望。",
+      "horoscope_en": "Libra, your tender and passionate nature is coming to the forefront today. It’s as if your romantic essence is shining brightly for all to see. Embrace this moment like a performer in the spotlight, relishing every second! The cosmic energies are aligning to help you gain a clearer perspective on love, allowing you to tackle it with both boldness and flair. Don’t hesitate to voice your needs and desires more openly.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -108,8 +108,8 @@
     },
     "scorpio": {
       "date": "2026-11-10",
-      "horoscope": "天蠍座，你在孤獨中茁壯成長，經常發現自己渴望安靜的時刻，無論是依偎著迷人的書還是享受悠閒的自行車騎行。這只是你固有天性的一部分。抵制忽視這種需要的衝動，因為這可能會導致不必要的壓力。盡可能讓自己擁抱這些平靜的時刻。如果你今天做不到，請花點時間思考，你可以如何將更多這樣的經驗融入你的生活。",
-      "horoscope_en": "Scorpio, you thrive on solitude and often find yourself yearning for quiet moments, whether it's snuggling up with a captivating book or enjoying a leisurely bike ride. This is simply part of your inherent nature. Resist the urge to overlook this need, as it may lead to unnecessary stress. Allow yourself to embrace these moments of peace when you can. If you can't today, take some time to reflect on how you might incorporate more of this into your life.",
+      "horoscope": "走進聚光燈下，擁抱你的情感深度，天蠍座。雖然愛情和浪漫可能會讓你感到暴露，但你沒有必要隱藏自己的這一部分。你可能會認為其他人已經解決了所有問題，但請記住，他們與你分享同樣的不安全感！讓你的敏感性輻射出來；展現你的脆弱性是非常吸引人的。",
+      "horoscope_en": "Step into the spotlight and embrace your emotional depth, Scorpio. While love and romance might make you feel exposed, there's no need to conceal this part of yourself. You might believe that others have it all figured out, but remember, they share the same insecurities as you do! Allow your sensitive nature to radiate; showing your vulnerability is incredibly appealing.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -121,8 +121,8 @@
     },
     "sagittarius": {
       "date": "2026-11-10",
-      "horoscope": "射手座，今天對你來說是美好的一天！你會發現你所參與的一切結果都很棒。活動將完美對齊，讓您享受寧靜和生產力的感覺。然而，您可能沒有意識到這種程度的成功可能每天都會發生。請務必確認今天的積極時刻，以便在未來幾天複製它們！",
-      "horoscope_en": "Today is set to be a fantastic day for you, Sagittarius! You'll find that everything you engage with turns out wonderfully. Events will align perfectly, allowing you to enjoy a sense of tranquility and productivity. However, you might not recognize that this level of success can be a daily occurrence. Make sure to acknowledge the positive moments today so you can replicate them in the days to come!",
+      "horoscope": "射手座，你正處於一個絕佳的位置，可以引導你的生活朝著你想要的方向前進。抓住這一刻掌控一切！然而，請注意，一個重要的方面--你的愛情生活--可能不會如你所願地展開。你可能會遇到一種特別固執的心態，讓人覺得難以理解，這很可能是你自己的心態。",
+      "horoscope_en": "Sagittarius, you're in a prime position to steer your life in the direction you desire. Seize this moment to take charge! However, be aware that one significant aspect—your love life—might not be unfolding as you wish. You may encounter a particularly obstinate mindset that feels impenetrable, and it could very well be your own.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -134,8 +134,8 @@
     },
     "capricorn": {
       "date": "2026-11-10",
-      "horoscope": "今天，你可能會發現自己比平常更充滿自信。雖然您經常傾向於害羞和保守，但這是發光發熱並確保他人認可您的價值的絕佳機會。你周圍的人開始欣賞你的價值是至關重要的。記住要優先考慮自己的需求和慾望；你真的配得上！",
-      "horoscope_en": "Today, you might find yourself brimming with confidence, more than you typically do. While you often lean towards being shy and reserved, this is the perfect opportunity to shine and ensure others recognize your value. It's essential that those around you start to appreciate your worth. Remember to prioritize your own needs and desires; you truly deserve it!",
+      "horoscope": "摩羯座，今天就和你所愛的人一起擁抱快樂吧。拋開你的擔憂，放下任何有關享受自己的潛在缺點的想法。讓自己沉浸在當下的刺激中。你擁有與伴侶建立令人難以置信的深厚聯繫的力量。星星是為了愛而對齊的，所以帶著自信挺身而出。無需懷疑或不安全感，請自豪。",
+      "horoscope_en": "Embrace joy with your loved ones today, Capricorn. Set aside your concerns and let go of any thoughts about potential downsides to enjoying yourself. Immerse yourself in the thrill of the present moment. You possess the power to forge incredibly deep connections with your partner. The stars are aligned for love, so step forward with assurance. There's no need for doubt or insecurity—carry yourself with pride.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -147,8 +147,8 @@
     },
     "aquarius": {
       "date": "2026-11-10",
-      "horoscope": "水瓶座，今天對你來說是一個絕佳的機會，可以在你生活的各個方面反思你的個人熱情。您可能已經注意到，在許多關係中，您經常忽略自己的需求以及從中獲得的東西。今天的行星排列鼓勵你專注於內心，並評估你在任務中為滿足他人而犧牲的東西。",
-      "horoscope_en": "Today is a perfect opportunity for you, Aquarius, to reflect on your personal passions across all aspects of your life. You may have observed that in many of your relationships, you often overlook your own needs and what you gain from them. The planetary alignment today encourages you to focus inward and evaluate what you sacrifice in your quest to satisfy others.",
+      "horoscope": "水瓶座，你是一個隱藏的寶藏！對於那些真正看到你的人來說，你對愛和忠誠的能力閃耀著光芒。沒有必要隱瞞或掩飾你的才華。擁抱您的尊貴精華，展現您的獨特品質。你的寧靜和迷人的精神是顯而易見的，揭示了你擁有的神聖屬性。任何有幸今晚和你在一起的人都是真正的祝福，確保他們值得你非凡的存在。",
+      "horoscope_en": "Aquarius, you are a hidden treasure! Your capacity for love and loyalty shines brightly for those who truly see you. There's no need to hold back or conceal your brilliance. Embrace your regal essence and showcase your unique qualities. Your serene and enchanting spirit is evident, revealing the divine attributes you possess. Anyone fortunate enough to be with you this evening is truly blessed—ensure they are deserving of your extraordinary presence.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
@@ -160,8 +160,8 @@
     },
     "pisces": {
       "date": "2026-11-10",
-      "horoscope": "雙魚座，你可能會遇到今天看起來相當自私的人。你可能會難以與那些優先考慮自身利益而非社區活動的人建立聯繫。然而，不妨將這些遭遇視為成長的機會；它們可能會教導你專注於自己的需求和渴望的重要性。",
-      "horoscope_en": "Pisces, you might encounter individuals who seem rather self-absorbed today. It’s possible that you’ll struggle to connect with those who prioritize their own interests over communal activities. However, consider viewing these encounters as opportunities for growth; they may impart a lesson on the importance of focusing on your own needs and desires a bit more.",
+      "horoscope": "雙魚座，你可能會發現自己陷入了與最親近的人（無論是朋友還是伴侶）的強烈感情和不屈不撓的觀點的旋風中。表達你的真實情緒現在可能會感到有挑戰性。看起來好像你周圍的每個人都在仔細檢查你的一舉一動。請記住，不要讓你的驕傲妨礙你的享受。敞開心扉，不必為他人的回應而煩惱。",
+      "horoscope_en": "Pisces, you might find yourself caught in a whirlwind of intense feelings and unyielding perspectives with those closest to you, whether friends or partners. Expressing your true emotions could feel challenging right now. It may seem as though everyone around you is scrutinizing your every move. Remember, don’t allow your pride to hinder your enjoyment. Open up about your feelings without fretting over others' responses.",
       "horoscope_source": {
         "name": "API Ninjas（英翻中）",
         "url": "https://api-ninjas.com/api/horoscope"
